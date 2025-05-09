@@ -11,6 +11,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Chave de criptografia
+const ENCRYPTION_KEY = "CTPJESUSATEULALALA";
+
 // Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyDyNqXm5ip2tBQDHTDpOFspLZgTWdtZxXU",
@@ -44,7 +47,7 @@ app.post('/keys', async (req, res) => {
       return res.status(400).json({ error: 'Chave e nome são obrigatórios' });
     }
 
-    const encryptedKey = CryptoJS.AES.encrypt(key, process.env.ENCRYPTION_KEY).toString();
+    const encryptedKey = CryptoJS.AES.encrypt(key, ENCRYPTION_KEY).toString();
     const keyDoc = {
       name,
       encryptedKey,
@@ -119,7 +122,7 @@ app.put('/keys/:id', async (req, res) => {
       return res.status(404).json({ error: 'Chave não encontrada' });
     }
 
-    const encryptedKey = CryptoJS.AES.encrypt(key, process.env.ENCRYPTION_KEY).toString();
+    const encryptedKey = CryptoJS.AES.encrypt(key, ENCRYPTION_KEY).toString();
     console.log('Chave criptografada com sucesso');
 
     const updateData = {
