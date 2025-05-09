@@ -1,12 +1,10 @@
 {
-  "name": "gerencia_acesso",
+  "name": "gerencia-acesso",
   "version": "1.0.0",
-  "description": "",
+  "description": "API para gerenciamento de chaves criptografadas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p functions && cp -r server.js functions/",
-    "dev": "netlify dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -24,10 +22,10 @@
     "crypto-js": "^4.2.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "firebase": "^11.7.1",
+    "firebase": "^10.7.0",
     "firebase-admin": "^13.3.0"
   },
   "devDependencies": {
-    "netlify-cli": "^17.0.0"
+    "@netlify/functions": "^2.4.0"
   }
 }
