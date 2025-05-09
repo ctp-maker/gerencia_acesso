@@ -29,12 +29,12 @@ app.use(cors());
 app.use(express.json());
 
 // Test endpoint
-app.get('/.netlify/functions/server/test', (req, res) => {
+app.get('/test', (req, res) => {
   res.json({ message: 'Servidor está rodando' });
 });
 
 // Store encrypted key
-app.post('/.netlify/functions/server/keys', async (req, res) => {
+app.post('/keys', async (req, res) => {
   try {
     const { key, name } = req.body;
     if (!key || !name) {
@@ -56,7 +56,7 @@ app.post('/.netlify/functions/server/keys', async (req, res) => {
 });
 
 // Get keys
-app.get('/.netlify/functions/server/keys', async (req, res) => {
+app.get('/keys', async (req, res) => {
   try {
     const { name } = req.query;
     let querySnapshot;
@@ -85,7 +85,7 @@ app.get('/.netlify/functions/server/keys', async (req, res) => {
 });
 
 // Update key
-app.put('/.netlify/functions/server/keys/:id', async (req, res) => {
+app.put('/keys/:id', async (req, res) => {
   try {
     const { key, name } = req.body;
     if (!key || !name) {
@@ -119,7 +119,7 @@ app.put('/.netlify/functions/server/keys/:id', async (req, res) => {
 });
 
 // Delete key
-app.delete('/.netlify/functions/server/keys/:id', async (req, res) => {
+app.delete('/keys/:id', async (req, res) => {
   try {
     const docRef = doc(db, 'encrypted_keys', req.params.id);
     const docSnap = await getDoc(docRef);
@@ -143,7 +143,7 @@ app.delete('/.netlify/functions/server/keys/:id', async (req, res) => {
 });
 
 // Decrypt endpoint
-app.post('/.netlify/functions/server/decrypt', async (req, res) => {
+app.post('/decrypt', async (req, res) => {
   try {
     const { secretKey, name } = req.body;
     if (!secretKey) {
@@ -185,5 +185,59 @@ app.post('/.netlify/functions/server/decrypt', async (req, res) => {
   }
 });
 
-// Export the Express app as a serverless function
-exports.handler = app; 
+// Netlify serverless function handler
+exports.handler = async function(event, context) {
+  // Parse the event body if it exists
+  if (event.body) {
+    try {
+      event.body = JSON.parse(event.body);
+    } catch (e) {
+      // If parsing fails, keep the body as is
+    }
+  }
+
+  // Create a mock request object
+  const req = {
+    method: event.httpMethod,
+    path: event.path.replace('/.netlify/functions/server', ''),
+    query: event.queryStringParameters || {},
+    body: event.body,
+    params: event.pathParameters || {}
+  };
+
+  // Create a mock response object
+  const res = {
+    status: function(code) {
+      this.statusCode = code;
+      return this;
+    },
+    json: function(data) {
+      return {
+        statusCode: this.statusCode || 200,
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      };
+    }
+  };
+
+  // Handle the request using Express
+  try {
+    const result = await new Promise((resolve, reject) => {
+      app(req, res, (err) => {
+        if (err) reject(err);
+        resolve(res.json());
+      });
+    });
+    return result;
+  } catch (error) {
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: 'Erro interno do servidor' }),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    };
+  }
+}; 
