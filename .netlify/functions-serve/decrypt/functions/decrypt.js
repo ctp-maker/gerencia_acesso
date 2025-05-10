@@ -53222,6 +53222,9 @@ exports.handler = async function(event, context) {
       const data = doc.data();
       try {
         const decryptedKey = CryptoJS.AES.decrypt(data.encryptedKey, secretKey).toString(CryptoJS.enc.Utf8);
+        if (!decryptedKey) {
+          throw new Error("Chave inv\xE1lida");
+        }
         keys.push({
           id: doc.id,
           name: data.name,
@@ -53229,10 +53232,11 @@ exports.handler = async function(event, context) {
           createdAt: data.createdAt
         });
       } catch (error) {
+        console.error("Erro ao descriptografar chave:", error);
         keys.push({
           id: doc.id,
           name: data.name,
-          error: "Falha ao descriptografar com a chave fornecida",
+          error: "N\xE3o foi poss\xEDvel descriptografar. Verifique se a chave secreta est\xE1 correta.",
           createdAt: data.createdAt
         });
       }

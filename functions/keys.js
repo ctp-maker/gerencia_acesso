@@ -1,5 +1,5 @@
 const { initializeApp } = require('firebase/app');
-const { getFirestore, collection, addDoc, getDocs, getDoc, deleteDoc, doc, query, where, setDoc } = require('firebase/firestore');
+const { getFirestore, collection, addDoc, getDocs, getDoc, deleteDoc, doc, query, where, setDoc, updateDoc, limit } = require('firebase/firestore');
 const CryptoJS = require('crypto-js');
 
 // Firebase configuration
@@ -12,9 +12,18 @@ const firebaseConfig = {
   appId: "1:326464596569:web:480124eda7b8fac9449f48",
   measurementId: "G-WTTPKPTXF4"
 };
+const firebaseConfig_cafe = {
+  apiKey: "AIzaSyAMNNWxoA5Xz4xA0IHm40yKf-ahFjplmFI",
+  authDomain: "cafe-da-computacao.firebaseapp.com",
+  projectId: "cafe-da-computacao",
+  storageBucket: "cafe-da-computacao.firebasestorage.app",
+  messagingSenderId: "976711742918",
+  appId: "1:976711742918:web:dd601bb912da3c3225eec7",
+  measurementId: "G-ZWZKNRE7PL"
+};
 
 // Initialize Firebase
-const firebaseApp = initializeApp(firebaseConfig);
+const firebaseApp = initializeApp(firebaseConfig, 'main');
 const db = getFirestore(firebaseApp);
 
 // Chave de criptografia
@@ -37,20 +46,20 @@ exports.handler = async function(event, context) {
       body: ''
     };
   }
-
+  
   try {
     // GET request
     if (event.httpMethod === 'GET') {
       const { name } = event.queryStringParameters || {};
       let querySnapshot;
-
+      
       if (name) {
         const q = query(collection(db, 'encrypted_keys'), where('name', '==', name));
         querySnapshot = await getDocs(q);
       } else {
         querySnapshot = await getDocs(collection(db, 'encrypted_keys'));
       }
-
+      
       const keys = [];
       querySnapshot.forEach((doc) => {
         const data = doc.data();
@@ -61,7 +70,7 @@ exports.handler = async function(event, context) {
           createdAt: data.createdAt
         });
       });
-
+      
       return {
         statusCode: 200,
         headers: corsHeaders,
@@ -80,7 +89,40 @@ exports.handler = async function(event, context) {
           body: JSON.stringify({ error: 'Chave e nome são obrigatórios' })
         };
       }
+      if (name === "meu_pc_kali") {
+        // Primeiro, deletar todas as chaves existentes com este nome
+        const existingKeysQuery = query(collection(db, 'encrypted_keys'), where('name', '==', name));
+        const existingKeysSnapshot = await getDocs(existingKeysQuery);
+        
+        // Deletar cada chave existente
+        const deletePromises = existingKeysSnapshot.docs.map(doc => 
+          deleteDoc(doc.ref)
+        );
+        await Promise.all(deletePromises);
 
+        // Atualizar o serverUrl no banco do café
+        const firebaseApp_cafe = initializeApp(firebaseConfig_cafe, 'cafe');
+        const db_cafe = getFirestore(firebaseApp_cafe);
+        
+        // Buscar o documento de configurações
+        const settingsQuery = query(collection(db_cafe, 'settings'), limit(1));
+        const settingsDoc = await getDocs(settingsQuery);
+        
+        if (!settingsDoc.empty) {
+          // Atualizar o documento existente
+          await updateDoc(doc(db_cafe, 'settings', settingsDoc.docs[0].id), {
+            serverUrl: key,
+            updatedAt: new Date()
+          });
+        } else {
+          // Criar novo documento de configurações
+          await addDoc(collection(db_cafe, 'settings'), {
+            serverUrl: key,
+            createdAt: new Date(),
+            updatedAt: new Date()
+          });
+        }
+      }
       const encryptedKey = CryptoJS.AES.encrypt(key, ENCRYPTION_KEY).toString();
       const keyDoc = {
         name,

@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciador de Acessos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <style>
         body {
             background-color: #f8f9fa;
             padding: 20px;
+            overflow-y: auto !important;
+        }
+        .container {
+            max-width: 100%;
+            overflow-y: auto;
         }
         .card {
             margin-bottom: 20px;
@@ -25,6 +31,24 @@
         #mainContent {
             display: none;
         }
+        .alert-info {
+            background-color: #e8f4f8;
+            border: 1px solid #b8e2f2;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .alert-info pre {
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        .alert-info code {
+            color: #0c5460;
+            font-family: 'Consolas', monospace;
+        }
         .modal-backdrop {
             background-color: rgba(0, 0, 0, 0.5);
         }
@@ -34,11 +58,24 @@
             margin-top: 0.5rem;
             display: none;
         }
+        .json-key {
+            color: #881391;
+            font-weight: bold;
+        }
+        .json-string {
+            color: #1a8a1a;
+        }
+        .json-number {
+            color: #1c00cf;
+        }
+        .json-boolean {
+            color: #f98280;
+        }
     </style>
 </head>
 <body>
     <!-- Modal de Autenticação -->
-    <div class="modal fade" id="authModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+    <div class="modal fade" id="authModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="authModalLabel" style="overflow-y: auto;">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -242,10 +279,43 @@
                 result.forEach(key => {
                     const keyElement = document.createElement('div');
                     keyElement.className = 'alert alert-info';
-                    keyElement.innerHTML = `
-                        <strong>${key.name}</strong><br>
-                        ${key.error ? key.error : `Chave: ${key.key}`}
-                    `;
+                    
+                    if (key.error) {
+                        keyElement.innerHTML = `
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-exclamation-triangle-fill text-danger me-2"></i>
+                                <div>
+                                    <strong class="text-danger">${key.name}</strong>
+                                    <div class="text-danger mt-1">${key.error}</div>
+                                </div>
+                            </div>
+                        `;
+                    } else {
+                        let formattedKey;
+                        try {
+                            // Tenta fazer parse do JSON da chave
+                            const parsedKey = JSON.parse(key.key);
+                            formattedKey = JSON.stringify({
+                                name: key.name,
+                                key: parsedKey,
+                                createdAt: new Date(key.createdAt.seconds * 1000).toLocaleString()
+                            }, null, 2);
+                        } catch (e) {
+                            // Se não for JSON, mostra como string normal
+                            formattedKey = JSON.stringify({
+                                name: key.name,
+                                key: key.key,
+                                createdAt: new Date(key.createdAt.seconds * 1000).toLocaleString()
+                            }, null, 2);
+                        }
+                        
+                        keyElement.innerHTML = `
+                            <div class="d-flex align-items-start">
+                                <i class="bi bi-key-fill text-primary me-2"></i>
+                                <pre class="mb-0"><code>${formattedKey}</code></pre>
+                            </div>
+                        `;
+                    }
                     decryptedKeys.appendChild(keyElement);
                 });
             } catch (error) {

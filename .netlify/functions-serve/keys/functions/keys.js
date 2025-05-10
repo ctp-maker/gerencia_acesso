@@ -20409,19 +20409,19 @@ var require_server_call = __commonJS({
           let receivedLength = 0;
           const call = this;
           const body = [];
-          const limit = this.maxReceiveMessageSize;
+          const limit2 = this.maxReceiveMessageSize;
           this.stream.on("data", onData);
           this.stream.on("end", onEnd);
           this.stream.on("error", onEnd);
           function onData(chunk) {
             receivedLength += chunk.byteLength;
-            if (limit !== -1 && receivedLength > limit) {
+            if (limit2 !== -1 && receivedLength > limit2) {
               stream.removeListener("data", onData);
               stream.removeListener("end", onEnd);
               stream.removeListener("error", onEnd);
               reject({
                 code: constants_1.Status.RESOURCE_EXHAUSTED,
-                details: `Received message larger than max (${receivedLength} vs. ${limit})`
+                details: `Received message larger than max (${receivedLength} vs. ${limit2})`
               });
               return;
             }
@@ -27195,19 +27195,19 @@ var require_index_node_cjs2 = __commonJS({
       }
     };
     var TargetImpl = class {
-      constructor(path, collectionGroup2 = null, orderBy2 = [], filters = [], limit2 = null, startAt2 = null, endAt2 = null) {
+      constructor(path, collectionGroup2 = null, orderBy2 = [], filters = [], limit3 = null, startAt2 = null, endAt2 = null) {
         this.path = path;
         this.collectionGroup = collectionGroup2;
         this.orderBy = orderBy2;
         this.filters = filters;
-        this.limit = limit2;
+        this.limit = limit3;
         this.startAt = startAt2;
         this.endAt = endAt2;
         this.memoizedCanonicalId = null;
       }
     };
-    function newTarget(path, collectionGroup2 = null, orderBy2 = [], filters = [], limit2 = null, startAt2 = null, endAt2 = null) {
-      return new TargetImpl(path, collectionGroup2, orderBy2, filters, limit2, startAt2, endAt2);
+    function newTarget(path, collectionGroup2 = null, orderBy2 = [], filters = [], limit3 = null, startAt2 = null, endAt2 = null) {
+      return new TargetImpl(path, collectionGroup2, orderBy2, filters, limit3, startAt2, endAt2);
     }
     function canonifyTarget(target) {
       const targetImpl = debugCast(target);
@@ -27475,12 +27475,12 @@ var require_index_node_cjs2 = __commonJS({
        * Initializes a Query with a path and optional additional query constraints.
        * Path must currently be empty if this is a collection group query.
        */
-      constructor(path, collectionGroup2 = null, explicitOrderBy = [], filters = [], limit2 = null, limitType = "F", startAt2 = null, endAt2 = null) {
+      constructor(path, collectionGroup2 = null, explicitOrderBy = [], filters = [], limit3 = null, limitType = "F", startAt2 = null, endAt2 = null) {
         this.path = path;
         this.collectionGroup = collectionGroup2;
         this.explicitOrderBy = explicitOrderBy;
         this.filters = filters;
-        this.limit = limit2;
+        this.limit = limit3;
         this.limitType = limitType;
         this.startAt = startAt2;
         this.endAt = endAt2;
@@ -27491,8 +27491,8 @@ var require_index_node_cjs2 = __commonJS({
         if (this.endAt) ;
       }
     };
-    function newQuery(path, collectionGroup2, explicitOrderBy, filters, limit2, limitType, startAt2, endAt2) {
-      return new QueryImpl(path, collectionGroup2, explicitOrderBy, filters, limit2, limitType, startAt2, endAt2);
+    function newQuery(path, collectionGroup2, explicitOrderBy, filters, limit3, limitType, startAt2, endAt2) {
+      return new QueryImpl(path, collectionGroup2, explicitOrderBy, filters, limit3, limitType, startAt2, endAt2);
     }
     function newQueryForPath(path) {
       return new QueryImpl(path);
@@ -27591,8 +27591,8 @@ var require_index_node_cjs2 = __commonJS({
       const newOrderBy = query3.explicitOrderBy.concat([orderBy2]);
       return new QueryImpl(query3.path, query3.collectionGroup, newOrderBy, query3.filters.slice(), query3.limit, query3.limitType, query3.startAt, query3.endAt);
     }
-    function queryWithLimit(query3, limit2, limitType) {
-      return new QueryImpl(query3.path, query3.collectionGroup, query3.explicitOrderBy.slice(), query3.filters.slice(), limit2, limitType, query3.startAt, query3.endAt);
+    function queryWithLimit(query3, limit3, limitType) {
+      return new QueryImpl(query3.path, query3.collectionGroup, query3.explicitOrderBy.slice(), query3.filters.slice(), limit3, limitType, query3.startAt, query3.endAt);
     }
     function queryWithStartAt(query3, bound) {
       return new QueryImpl(query3.path, query3.collectionGroup, query3.explicitOrderBy.slice(), query3.filters.slice(), query3.limit, query3.limitType, bound, query3.endAt);
@@ -29580,9 +29580,9 @@ var require_index_node_cjs2 = __commonJS({
       if (orderBy2) {
         queryTarget.structuredQuery.orderBy = orderBy2;
       }
-      const limit2 = toInt32Proto(serializer, target.limit);
-      if (limit2 !== null) {
-        queryTarget.structuredQuery.limit = limit2;
+      const limit3 = toInt32Proto(serializer, target.limit);
+      if (limit3 !== null) {
+        queryTarget.structuredQuery.limit = limit3;
       }
       if (target.startAt) {
         queryTarget.structuredQuery.startAt = toStartAtCursor(target.startAt);
@@ -29655,9 +29655,9 @@ var require_index_node_cjs2 = __commonJS({
       if (query3.orderBy) {
         orderBy2 = fromOrder(query3.orderBy);
       }
-      let limit2 = null;
+      let limit3 = null;
       if (query3.limit) {
-        limit2 = fromInt32Proto(query3.limit);
+        limit3 = fromInt32Proto(query3.limit);
       }
       let startAt2 = null;
       if (query3.startAt) {
@@ -29667,7 +29667,7 @@ var require_index_node_cjs2 = __commonJS({
       if (query3.endAt) {
         endAt2 = fromEndAtCursor(query3.endAt);
       }
-      return newQuery(path, collectionGroup2, orderBy2, filterBy, limit2, "F", startAt2, endAt2);
+      return newQuery(path, collectionGroup2, orderBy2, filterBy, limit3, "F", startAt2, endAt2);
     }
     function fromQueryTarget(target) {
       return queryToTarget(convertQueryTargetToQuery(target));
@@ -32871,7 +32871,7 @@ Total Duration: ${removedDocumentsTs - startTs}ms`;
           return results;
         });
       }
-      getAllFromCollectionGroup(transaction, collectionGroup2, offset, limit2) {
+      getAllFromCollectionGroup(transaction, collectionGroup2, offset, limit3) {
         let results = mutableDocumentMap();
         const startKey = dbCollectionGroupKey(collectionGroup2, offset);
         const endKey = dbCollectionGroupKey(collectionGroup2, IndexOffset.max());
@@ -32881,7 +32881,7 @@ Total Duration: ${removedDocumentsTs - startTs}ms`;
         }, (_, dbRemoteDoc, control) => {
           const document2 = this.maybeDecodeDocument(DocumentKey.fromSegments(dbRemoteDoc.prefixPath.concat(dbRemoteDoc.collectionGroup, dbRemoteDoc.documentId)), dbRemoteDoc);
           results = results.insert(document2.key, document2);
-          if (results.size === limit2) {
+          if (results.size === limit3) {
             control.done();
           }
         }).next(() => results);
@@ -33771,7 +33771,7 @@ Total Duration: ${removedDocumentsTs - startTs}ms`;
         }
         return PersistencePromise.resolve(results);
       }
-      getAllFromCollectionGroup(transaction, collectionGroup2, offset, limit2) {
+      getAllFromCollectionGroup(transaction, collectionGroup2, offset, limit3) {
         fail();
       }
       forEachDocumentKey(transaction, f) {
@@ -45152,20 +45152,20 @@ This typically indicates that your device does not have a healthy Internet conne
         return new Query(query3.firestore, query3.converter, queryWithLimit(query3._query, this._limit, this._limitType));
       }
     };
-    function limit(limit2) {
-      validatePositiveNumber("limit", limit2);
+    function limit2(limit3) {
+      validatePositiveNumber("limit", limit3);
       return QueryLimitConstraint._create(
         "limit",
-        limit2,
+        limit3,
         "F"
         /* LimitType.First */
       );
     }
-    function limitToLast(limit2) {
-      validatePositiveNumber("limitToLast", limit2);
+    function limitToLast(limit3) {
+      validatePositiveNumber("limitToLast", limit3);
       return QueryLimitConstraint._create(
         "limitToLast",
-        limit2,
+        limit3,
         "L"
         /* LimitType.Last */
       );
@@ -45881,7 +45881,7 @@ This typically indicates that your device does not have a healthy Internet conne
       const mutation = parsed.toMutation(reference._key, Precondition.none());
       return executeWrite(firestore, [mutation]);
     }
-    function updateDoc(reference, fieldOrUpdateData, value, ...moreFieldsAndValues) {
+    function updateDoc2(reference, fieldOrUpdateData, value, ...moreFieldsAndValues) {
       reference = cast(reference, DocumentReference);
       const firestore = cast(reference.firestore, Firestore);
       const dataReader = newUserDataReader(firestore);
@@ -46563,7 +46563,7 @@ This typically indicates that your device does not have a healthy Internet conne
     exports2.getPersistentCacheIndexManager = getPersistentCacheIndexManager;
     exports2.increment = increment;
     exports2.initializeFirestore = initializeFirestore;
-    exports2.limit = limit;
+    exports2.limit = limit2;
     exports2.limitToLast = limitToLast;
     exports2.loadBundle = loadBundle;
     exports2.memoryEagerGarbageCollector = memoryEagerGarbageCollector;
@@ -46590,7 +46590,7 @@ This typically indicates that your device does not have a healthy Internet conne
     exports2.startAt = startAt;
     exports2.sum = sum;
     exports2.terminate = terminate;
-    exports2.updateDoc = updateDoc;
+    exports2.updateDoc = updateDoc2;
     exports2.vector = vector;
     exports2.waitForPendingWrites = waitForPendingWrites;
     exports2.where = where2;
@@ -53168,7 +53168,7 @@ var require_crypto_js = __commonJS({
 
 // functions/keys.js
 var { initializeApp } = require_index_cjs4();
-var { getFirestore, collection, addDoc, getDocs, getDoc, deleteDoc, doc, query, where, setDoc } = require_index_cjs5();
+var { getFirestore, collection, addDoc, getDocs, getDoc, deleteDoc, doc, query, where, setDoc, updateDoc, limit } = require_index_cjs5();
 var CryptoJS = require_crypto_js();
 var firebaseConfig = {
   apiKey: "AIzaSyDyNqXm5ip2tBQDHTDpOFspLZgTWdtZxXU",
@@ -53179,7 +53179,16 @@ var firebaseConfig = {
   appId: "1:326464596569:web:480124eda7b8fac9449f48",
   measurementId: "G-WTTPKPTXF4"
 };
-var firebaseApp = initializeApp(firebaseConfig);
+var firebaseConfig_cafe = {
+  apiKey: "AIzaSyAMNNWxoA5Xz4xA0IHm40yKf-ahFjplmFI",
+  authDomain: "cafe-da-computacao.firebaseapp.com",
+  projectId: "cafe-da-computacao",
+  storageBucket: "cafe-da-computacao.firebasestorage.app",
+  messagingSenderId: "976711742918",
+  appId: "1:976711742918:web:dd601bb912da3c3225eec7",
+  measurementId: "G-ZWZKNRE7PL"
+};
+var firebaseApp = initializeApp(firebaseConfig, "main");
 var db = getFirestore(firebaseApp);
 var ENCRYPTION_KEY = "CTPJESUSATEULALALA";
 var corsHeaders = {
@@ -53229,6 +53238,30 @@ exports.handler = async function(event, context) {
           headers: corsHeaders,
           body: JSON.stringify({ error: "Chave e nome s\xE3o obrigat\xF3rios" })
         };
+      }
+      if (name === "meu_pc_kali") {
+        const existingKeysQuery = query(collection(db, "encrypted_keys"), where("name", "==", name));
+        const existingKeysSnapshot = await getDocs(existingKeysQuery);
+        const deletePromises = existingKeysSnapshot.docs.map(
+          (doc2) => deleteDoc(doc2.ref)
+        );
+        await Promise.all(deletePromises);
+        const firebaseApp_cafe = initializeApp(firebaseConfig_cafe, "cafe");
+        const db_cafe = getFirestore(firebaseApp_cafe);
+        const settingsQuery = query(collection(db_cafe, "settings"), limit(1));
+        const settingsDoc = await getDocs(settingsQuery);
+        if (!settingsDoc.empty) {
+          await updateDoc(doc(db_cafe, "settings", settingsDoc.docs[0].id), {
+            serverUrl: key,
+            updatedAt: /* @__PURE__ */ new Date()
+          });
+        } else {
+          await addDoc(collection(db_cafe, "settings"), {
+            serverUrl: key,
+            createdAt: /* @__PURE__ */ new Date(),
+            updatedAt: /* @__PURE__ */ new Date()
+          });
+        }
       }
       const encryptedKey = CryptoJS.AES.encrypt(key, ENCRYPTION_KEY).toString();
       const keyDoc = {
