@@ -9,6 +9,21 @@
   <link href="/css/dashboard-real.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
+  <style>
+    .admin-locked {
+      display: none !important;
+    }
+    .admin-unlocked {
+      display: block !important;
+    }
+    .clickable-number {
+      cursor: auto;
+    }
+    .full-width {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
+  </style>
 </head>
 <body>
   <nav class="navbar navbar-dark bg-dark">
@@ -22,7 +37,7 @@
       <!-- Coluna da Esquerda: Terminal e Monitores -->
       <div class="col-lg-7">
         <!-- Painel de Comando com Abas -->
-        <div class="card shadow-lg mb-4">
+        <div class="card shadow-lg mb-4 admin-locked" id="terminalSection">
           <div class="card-header bg-dark text-white p-0">
               <div class="d-flex align-items-center">
                   <div id="terminalTabs" class="d-flex">
@@ -39,19 +54,21 @@
         </div>
 
         <!-- Seção de Monitores de Serviço -->
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <h3 class="mb-0">Monitores de Serviço</h3>
-            <button class="btn btn-success" id="addMonitorBtn" data-bs-toggle="modal" data-bs-target="#monitorModal">
-                Adicionar Novo Monitor
-            </button>
-        </div>
-        <div id="monitorsContainer" class="row">
-            <!-- Os cards dos monitores serão inseridos aqui pelo JS -->
+        <div class="admin-locked" id="monitorsSection">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+              <h3 class="mb-0">Monitores de Serviço</h3>
+              <button class="btn btn-success" id="addMonitorBtn" data-bs-toggle="modal" data-bs-target="#monitorModal">
+                  Adicionar Novo Monitor
+              </button>
+          </div>
+          <div id="monitorsContainer" class="row">
+              <!-- Os cards dos monitores serão inseridos aqui pelo JS -->
+          </div>
         </div>
       </div>
 
       <!-- Coluna da Direita: Métricas e Histórico -->
-      <div class="col-lg-5">
+      <div class="col-lg-5 full-width" id="rightCol">
           <!-- Métricas Instantâneas e Processos -->
           <div class="row">
             <div class="col-4 mb-3">
@@ -84,7 +101,7 @@
           </div>
           <div class="card mb-4">
             <div class="card-body">
-              <h5 class="card-title">Top 5 Processos por Uso de Memória</h5>
+              <h5 class="card-title">Top <span class="clickable-number" id="adminTrigger">5</span> Processos por Uso de Memória</h5>
               <div class="table-responsive">
                 <table class="table table-sm align-middle mb-0">
                   <thead>
@@ -119,6 +136,30 @@
               </div>
             </div>
           </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal para Senha de Administrador -->
+  <div class="modal fade" id="adminModal" tabindex="-1" aria-labelledby="adminModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="adminModalLabel">Acesso Administrativo</h5>
+        </div>
+        <div class="modal-body">
+          <p>Digite a senha de administrador para acessar o terminal e monitores de serviço.</p>
+          <form id="adminForm">
+            <div class="mb-3">
+              <label for="adminPassword" class="form-label">Senha de Administrador</label>
+              <input type="password" class="form-control" id="adminPassword" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" id="cancelAdminBtn">Cancelar</button>
+          <button type="button" class="btn btn-primary" id="confirmAdminBtn">Acessar</button>
+        </div>
       </div>
     </div>
   </div>

@@ -1,4 +1,117 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // ----- LÓGICA DE AUTENTICAÇÃO ADMINISTRATIVA -----
+  let isAdminAuthenticated = false;
+  
+  const adminModal = new bootstrap.Modal(document.getElementById('adminModal'));
+  const adminPasswordInput = document.getElementById('adminPassword');
+  const confirmAdminBtn = document.getElementById('confirmAdminBtn');
+  const cancelAdminBtn = document.getElementById('cancelAdminBtn');
+  const adminTrigger = document.getElementById('adminTrigger');
+  
+  // Função para mostrar/esconder seções administrativas
+  const toggleAdminSections = (show) => {
+    const terminalSection = document.getElementById('terminalSection');
+    const monitorsSection = document.getElementById('monitorsSection');
+    
+    if (show) {
+      terminalSection.classList.remove('admin-locked');
+      terminalSection.classList.add('admin-unlocked');
+      monitorsSection.classList.remove('admin-locked');
+      monitorsSection.classList.add('admin-unlocked');
+    } else {
+      terminalSection.classList.add('admin-locked');
+      terminalSection.classList.remove('admin-unlocked');
+      monitorsSection.classList.add('admin-locked');
+      monitorsSection.classList.remove('admin-unlocked');
+    }
+  };
+  
+  // Event listener para o trigger do modal (número "5")
+  adminTrigger.addEventListener('click', () => {
+    if (!isAdminAuthenticated) {
+      adminModal.show();
+      adminPasswordInput.focus();
+    }
+  });
+  
+  // Event listener para confirmar senha
+  confirmAdminBtn.addEventListener('click', async () => {
+    const password = adminPasswordInput.value;
+    
+    if (!password) {
+      alert('Digite uma senha!');
+      adminPasswordInput.focus();
+      return;
+    }
+    
+    try {
+      const response = await fetch('/api/admin/verify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password })
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok && data.success) {
+        isAdminAuthenticated = true;
+        adminModal.hide();
+        adminPasswordInput.value = '';
+        toggleAdminSections(true);
+        
+        // Remove full-width da coluna da direita
+        const rightCol = document.getElementById('rightCol');
+        if (rightCol) rightCol.classList.remove('full-width');
+        
+        // Inicializa as funcionalidades administrativas
+        initializeAdminFeatures();
+        
+        console.log('Acesso administrativo concedido');
+      } else {
+        alert('Bem-vindo ao painel de controle!');
+        adminPasswordInput.value = '';
+        adminModal.hide();
+
+
+      }
+    } catch (error) {
+      console.error('Erro na autenticação:', error);
+      alert('Erro na autenticação. Tente novamente.');
+      adminPasswordInput.value = '';
+      adminPasswordInput.focus();
+    }
+  });
+  
+  // Event listener para cancelar
+  cancelAdminBtn.addEventListener('click', () => {
+    adminModal.hide();
+    adminPasswordInput.value = '';
+  });
+  
+  // Event listener para Enter no campo de senha
+  adminPasswordInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      confirmAdminBtn.click();
+    }
+  });
+  
+  // Função para inicializar funcionalidades administrativas
+  const initializeAdminFeatures = () => {
+    // Inicializa o terminal
+    createNewTerminal();
+    
+    // Adiciona o event listener para o botão de nova aba
+    const newTabBtn = document.getElementById('newTabBtn');
+    if (newTabBtn) {
+      newTabBtn.addEventListener('click', createNewTerminal);
+    }
+    
+    // Carrega os monitores
+    renderMonitors();
+  };
+  
+  // ----- FIM DA LÓGICA DE AUTENTICAÇÃO ADMINISTRATIVA -----
+
   // Força o registro do plugin de zoom para garantir compatibilidade
   if (window.ChartZoom) {
     Chart.register(window.ChartZoom);
@@ -244,10 +357,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  newTabBtn.addEventListener('click', createNewTerminal);
-  // Inicia o primeiro terminal
-  createNewTerminal();
-
   // ----- FIM DA LÓGICA DO TERMINAL COM ABAS -----
 
   // ----- LÓGICA DOS MONITORES DE SERVIÇO -----
@@ -431,9 +540,6 @@ document.addEventListener('DOMContentLoaded', () => {
           renderMonitors();
       }
   });
-
-  // Carrega os monitores ao iniciar
-  renderMonitors();
 
   const historyChartCtx = document.getElementById('historyChart');
   const historyChart = new Chart(historyChartCtx, {

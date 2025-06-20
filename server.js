@@ -485,7 +485,7 @@ app.get('/api/monitors/status/:port', (req, res) => {
 // ... ATENÇÃO: Endpoint Inseguro ---
 // Este endpoint permite execução de comandos arbitrários e só deve ser usado
 // em ambiente estritamente local e controlado.
-const ADMIN_PASSWORD = 'superadmin'; // Troque por uma senha de sua preferência
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'superadmin'; // Senha da variável de ambiente
 
 app.post('/api/exec-admin', (req, res) => {
   const { cmd, password } = req.body;
@@ -629,6 +629,23 @@ wss.on('connection', (ws) => {
 // Endpoint para obter o histórico inicial
 app.get('/api/history', (req, res) => {
   res.json(statsHistory);
+});
+
+// Endpoint para verificar senha de administrador
+app.post('/api/admin/verify', (req, res) => {
+  const { password } = req.body;
+  
+  if (!password) {
+    return res.status(400).json({ error: 'Senha não fornecida' });
+  }
+  console.log(password);
+  console.log(ADMIN_PASSWORD);
+  if (password === ADMIN_PASSWORD) {
+    console.log('Autenticação bem-sucedida');
+    res.json({ success: true, message: 'Autenticação bem-sucedida' });
+  } else {
+    res.status(401).json({ error: 'Senha incorreta' });
+  }
 });
 
 // Adicionando a nova rota
