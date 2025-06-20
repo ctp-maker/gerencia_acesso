@@ -1,0 +1,4602 @@
+[
+  {
+    "cpu": "16.34",
+    "mem": {
+      "total": "34.94",
+      "used": "10.99",
+      "percent": "31.44"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:01"
+  },
+  {
+    "cpu": "24.75",
+    "mem": {
+      "total": "34.94",
+      "used": "11.03",
+      "percent": "31.56"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:03"
+  },
+  {
+    "cpu": "20.22",
+    "mem": {
+      "total": "34.94",
+      "used": "11.02",
+      "percent": "31.54"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:05"
+  },
+  {
+    "cpu": "12.13",
+    "mem": {
+      "total": "34.94",
+      "used": "10.93",
+      "percent": "31.29"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:07"
+  },
+  {
+    "cpu": "11.51",
+    "mem": {
+      "total": "34.94",
+      "used": "10.93",
+      "percent": "31.29"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:09"
+  },
+  {
+    "cpu": "11.74",
+    "mem": {
+      "total": "34.94",
+      "used": "10.93",
+      "percent": "31.28"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:11"
+  },
+  {
+    "cpu": "23.53",
+    "mem": {
+      "total": "34.94",
+      "used": "10.97",
+      "percent": "31.38"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:13"
+  },
+  {
+    "cpu": "20.59",
+    "mem": {
+      "total": "34.94",
+      "used": "10.95",
+      "percent": "31.34"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:15"
+  },
+  {
+    "cpu": "43.33",
+    "mem": {
+      "total": "34.94",
+      "used": "11.02",
+      "percent": "31.54"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.85"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:17"
+  },
+  {
+    "cpu": "17.91",
+    "mem": {
+      "total": "34.94",
+      "used": "11.01",
+      "percent": "31.51"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:19"
+  },
+  {
+    "cpu": "12.51",
+    "mem": {
+      "total": "34.94",
+      "used": "11.02",
+      "percent": "31.54"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:21"
+  },
+  {
+    "cpu": "13.20",
+    "mem": {
+      "total": "34.94",
+      "used": "11.00",
+      "percent": "31.49"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:23"
+  },
+  {
+    "cpu": "10.11",
+    "mem": {
+      "total": "34.94",
+      "used": "11.01",
+      "percent": "31.50"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:25"
+  },
+  {
+    "cpu": "15.21",
+    "mem": {
+      "total": "34.94",
+      "used": "11.01",
+      "percent": "31.50"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:27"
+  },
+  {
+    "cpu": "8.30",
+    "mem": {
+      "total": "34.94",
+      "used": "10.99",
+      "percent": "31.44"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:29"
+  },
+  {
+    "cpu": "18.13",
+    "mem": {
+      "total": "34.94",
+      "used": "11.01",
+      "percent": "31.50"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:31"
+  },
+  {
+    "cpu": "19.17",
+    "mem": {
+      "total": "34.94",
+      "used": "11.00",
+      "percent": "31.48"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:33"
+  },
+  {
+    "cpu": "40.96",
+    "mem": {
+      "total": "34.94",
+      "used": "11.06",
+      "percent": "31.65"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.84"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:35"
+  },
+  {
+    "cpu": "12.73",
+    "mem": {
+      "total": "34.94",
+      "used": "11.07",
+      "percent": "31.66"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.84"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:37"
+  },
+  {
+    "cpu": "17.38",
+    "mem": {
+      "total": "34.94",
+      "used": "11.04",
+      "percent": "31.60"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.84"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:39"
+  },
+  {
+    "cpu": "15.77",
+    "mem": {
+      "total": "34.94",
+      "used": "11.03",
+      "percent": "31.57"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.82"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:41"
+  },
+  {
+    "cpu": "9.67",
+    "mem": {
+      "total": "34.94",
+      "used": "11.01",
+      "percent": "31.49"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.36"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:43"
+  },
+  {
+    "cpu": "10.29",
+    "mem": {
+      "total": "34.94",
+      "used": "11.01",
+      "percent": "31.51"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:45"
+  },
+  {
+    "cpu": "11.84",
+    "mem": {
+      "total": "34.94",
+      "used": "10.99",
+      "percent": "31.46"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:47"
+  },
+  {
+    "cpu": "10.45",
+    "mem": {
+      "total": "34.94",
+      "used": "10.99",
+      "percent": "31.45"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:49"
+  },
+  {
+    "cpu": "32.55",
+    "mem": {
+      "total": "34.94",
+      "used": "11.02",
+      "percent": "31.52"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:51"
+  },
+  {
+    "cpu": "16.76",
+    "mem": {
+      "total": "34.94",
+      "used": "11.00",
+      "percent": "31.47"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:53"
+  },
+  {
+    "cpu": "36.03",
+    "mem": {
+      "total": "34.94",
+      "used": "11.03",
+      "percent": "31.57"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.82"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:55"
+  },
+  {
+    "cpu": "34.66",
+    "mem": {
+      "total": "34.94",
+      "used": "11.08",
+      "percent": "31.71"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.86"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:57"
+  },
+  {
+    "cpu": "13.04",
+    "mem": {
+      "total": "34.94",
+      "used": "11.08",
+      "percent": "31.71"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.86"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:14:59"
+  },
+  {
+    "cpu": "12.06",
+    "mem": {
+      "total": "34.94",
+      "used": "11.07",
+      "percent": "31.67"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.86"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:01"
+  },
+  {
+    "cpu": "21.58",
+    "mem": {
+      "total": "34.94",
+      "used": "11.04",
+      "percent": "31.60"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:03"
+  },
+  {
+    "cpu": "9.97",
+    "mem": {
+      "total": "34.94",
+      "used": "11.05",
+      "percent": "31.61"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:05"
+  },
+  {
+    "cpu": "9.37",
+    "mem": {
+      "total": "34.94",
+      "used": "11.06",
+      "percent": "31.66"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:07"
+  },
+  {
+    "cpu": "12.30",
+    "mem": {
+      "total": "34.94",
+      "used": "11.06",
+      "percent": "31.65"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:09"
+  },
+  {
+    "cpu": "19.96",
+    "mem": {
+      "total": "34.94",
+      "used": "10.99",
+      "percent": "31.46"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.75"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:11"
+  },
+  {
+    "cpu": "8.01",
+    "mem": {
+      "total": "34.94",
+      "used": "10.99",
+      "percent": "31.45"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.75"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:13"
+  },
+  {
+    "cpu": "35.62",
+    "mem": {
+      "total": "34.94",
+      "used": "11.01",
+      "percent": "31.52"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.77"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:15"
+  },
+  {
+    "cpu": "21.30",
+    "mem": {
+      "total": "34.94",
+      "used": "11.03",
+      "percent": "31.55"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:17"
+  },
+  {
+    "cpu": "30.06",
+    "mem": {
+      "total": "34.94",
+      "used": "11.03",
+      "percent": "31.57"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:19"
+  },
+  {
+    "cpu": "12.67",
+    "mem": {
+      "total": "34.94",
+      "used": "11.03",
+      "percent": "31.58"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:21"
+  },
+  {
+    "cpu": "9.62",
+    "mem": {
+      "total": "34.94",
+      "used": "11.05",
+      "percent": "31.63"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:23"
+  },
+  {
+    "cpu": "17.47",
+    "mem": {
+      "total": "34.94",
+      "used": "11.05",
+      "percent": "31.61"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:25"
+  },
+  {
+    "cpu": "11.01",
+    "mem": {
+      "total": "34.94",
+      "used": "11.04",
+      "percent": "31.60"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:27"
+  },
+  {
+    "cpu": "8.07",
+    "mem": {
+      "total": "34.94",
+      "used": "11.04",
+      "percent": "31.61"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:29"
+  },
+  {
+    "cpu": "12.83",
+    "mem": {
+      "total": "34.94",
+      "used": "11.03",
+      "percent": "31.56"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:31"
+  },
+  {
+    "cpu": "7.53",
+    "mem": {
+      "total": "34.94",
+      "used": "11.08",
+      "percent": "31.71"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:35"
+  },
+  {
+    "cpu": "9.40",
+    "mem": {
+      "total": "34.94",
+      "used": "11.07",
+      "percent": "31.67"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.39"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:37"
+  },
+  {
+    "cpu": "5.13",
+    "mem": {
+      "total": "34.94",
+      "used": "11.06",
+      "percent": "31.66"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.39"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:39"
+  },
+  {
+    "cpu": "8.29",
+    "mem": {
+      "total": "34.94",
+      "used": "11.07",
+      "percent": "31.68"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:41"
+  },
+  {
+    "cpu": "10.23",
+    "mem": {
+      "total": "34.94",
+      "used": "11.05",
+      "percent": "31.63"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:43"
+  },
+  {
+    "cpu": "29.62",
+    "mem": {
+      "total": "34.94",
+      "used": "11.00",
+      "percent": "31.47"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:45"
+  },
+  {
+    "cpu": "15.98",
+    "mem": {
+      "total": "34.94",
+      "used": "10.98",
+      "percent": "31.43"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:47"
+  },
+  {
+    "cpu": "32.22",
+    "mem": {
+      "total": "34.94",
+      "used": "10.98",
+      "percent": "31.41"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.82"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:49"
+  },
+  {
+    "cpu": "22.14",
+    "mem": {
+      "total": "34.94",
+      "used": "10.98",
+      "percent": "31.42"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:51"
+  },
+  {
+    "cpu": "11.64",
+    "mem": {
+      "total": "34.94",
+      "used": "10.96",
+      "percent": "31.36"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:53"
+  },
+  {
+    "cpu": "5.93",
+    "mem": {
+      "total": "34.94",
+      "used": "10.94",
+      "percent": "31.31"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:55"
+  },
+  {
+    "cpu": "8.64",
+    "mem": {
+      "total": "34.94",
+      "used": "10.91",
+      "percent": "31.21"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:57"
+  },
+  {
+    "cpu": "9.59",
+    "mem": {
+      "total": "34.94",
+      "used": "10.90",
+      "percent": "31.21"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:15:59"
+  },
+  {
+    "cpu": "6.41",
+    "mem": {
+      "total": "34.94",
+      "used": "10.90",
+      "percent": "31.19"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:01"
+  },
+  {
+    "cpu": "14.60",
+    "mem": {
+      "total": "34.94",
+      "used": "10.90",
+      "percent": "31.18"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:03"
+  },
+  {
+    "cpu": "16.76",
+    "mem": {
+      "total": "34.94",
+      "used": "10.96",
+      "percent": "31.35"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:05"
+  },
+  {
+    "cpu": "13.84",
+    "mem": {
+      "total": "34.94",
+      "used": "10.98",
+      "percent": "31.43"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:07"
+  },
+  {
+    "cpu": "10.78",
+    "mem": {
+      "total": "34.94",
+      "used": "11.01",
+      "percent": "31.50"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:09"
+  },
+  {
+    "cpu": "13.84",
+    "mem": {
+      "total": "34.94",
+      "used": "11.02",
+      "percent": "31.54"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:11"
+  },
+  {
+    "cpu": "15.30",
+    "mem": {
+      "total": "34.94",
+      "used": "10.98",
+      "percent": "31.43"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:13"
+  },
+  {
+    "cpu": "11.06",
+    "mem": {
+      "total": "34.94",
+      "used": "10.98",
+      "percent": "31.41"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:15"
+  },
+  {
+    "cpu": "9.04",
+    "mem": {
+      "total": "34.94",
+      "used": "10.98",
+      "percent": "31.42"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:17"
+  },
+  {
+    "cpu": "10.44",
+    "mem": {
+      "total": "34.94",
+      "used": "10.98",
+      "percent": "31.43"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:19"
+  },
+  {
+    "cpu": "11.17",
+    "mem": {
+      "total": "34.94",
+      "used": "10.98",
+      "percent": "31.43"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.82"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:22"
+  },
+  {
+    "cpu": "38.50",
+    "mem": {
+      "total": "34.94",
+      "used": "11.05",
+      "percent": "31.63"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.87"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:24"
+  },
+  {
+    "cpu": "26.14",
+    "mem": {
+      "total": "34.94",
+      "used": "11.08",
+      "percent": "31.71"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.97"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.84"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:25"
+  },
+  {
+    "cpu": "15.36",
+    "mem": {
+      "total": "34.94",
+      "used": "11.07",
+      "percent": "31.69"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:27"
+  },
+  {
+    "cpu": "11.96",
+    "mem": {
+      "total": "34.94",
+      "used": "11.06",
+      "percent": "31.65"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:29"
+  },
+  {
+    "cpu": "15.08",
+    "mem": {
+      "total": "34.94",
+      "used": "11.09",
+      "percent": "31.72"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:31"
+  },
+  {
+    "cpu": "16.62",
+    "mem": {
+      "total": "34.94",
+      "used": "11.08",
+      "percent": "31.70"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.82"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:33"
+  },
+  {
+    "cpu": "32.65",
+    "mem": {
+      "total": "34.94",
+      "used": "11.09",
+      "percent": "31.72"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.82"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:35"
+  },
+  {
+    "cpu": "19.72",
+    "mem": {
+      "total": "34.94",
+      "used": "11.09",
+      "percent": "31.75"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:37"
+  },
+  {
+    "cpu": "7.53",
+    "mem": {
+      "total": "34.94",
+      "used": "11.13",
+      "percent": "31.84"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:41"
+  },
+  {
+    "cpu": "15.98",
+    "mem": {
+      "total": "34.94",
+      "used": "11.10",
+      "percent": "31.78"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.83"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:43"
+  },
+  {
+    "cpu": "21.51",
+    "mem": {
+      "total": "34.94",
+      "used": "11.05",
+      "percent": "31.62"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.76"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:45"
+  },
+  {
+    "cpu": "11.08",
+    "mem": {
+      "total": "34.94",
+      "used": "11.02",
+      "percent": "31.53"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.76"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:47"
+  },
+  {
+    "cpu": "16.28",
+    "mem": {
+      "total": "34.94",
+      "used": "11.03",
+      "percent": "31.55"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.76"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:49"
+  },
+  {
+    "cpu": "14.02",
+    "mem": {
+      "total": "34.94",
+      "used": "11.03",
+      "percent": "31.56"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.76"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:51"
+  },
+  {
+    "cpu": "8.72",
+    "mem": {
+      "total": "34.94",
+      "used": "11.02",
+      "percent": "31.55"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.76"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:53"
+  },
+  {
+    "cpu": "16.11",
+    "mem": {
+      "total": "34.94",
+      "used": "10.95",
+      "percent": "31.34"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.78"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:55"
+  },
+  {
+    "cpu": "8.91",
+    "mem": {
+      "total": "34.94",
+      "used": "10.94",
+      "percent": "31.30"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.78"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:57"
+  },
+  {
+    "cpu": "8.89",
+    "mem": {
+      "total": "34.94",
+      "used": "10.94",
+      "percent": "31.32"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.77"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:16:59"
+  },
+  {
+    "cpu": "16.31",
+    "mem": {
+      "total": "34.94",
+      "used": "10.94",
+      "percent": "31.31"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.78"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:01"
+  },
+  {
+    "cpu": "14.79",
+    "mem": {
+      "total": "34.94",
+      "used": "10.93",
+      "percent": "31.29"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:03"
+  },
+  {
+    "cpu": "20.83",
+    "mem": {
+      "total": "34.94",
+      "used": "10.96",
+      "percent": "31.37"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.78"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:05"
+  },
+  {
+    "cpu": "14.07",
+    "mem": {
+      "total": "34.94",
+      "used": "10.94",
+      "percent": "31.32"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.78"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:07"
+  },
+  {
+    "cpu": "13.14",
+    "mem": {
+      "total": "34.94",
+      "used": "10.94",
+      "percent": "31.32"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.78"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.37"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:09"
+  },
+  {
+    "cpu": "10.49",
+    "mem": {
+      "total": "34.94",
+      "used": "10.95",
+      "percent": "31.34"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.78"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:11"
+  },
+  {
+    "cpu": "17.03",
+    "mem": {
+      "total": "34.94",
+      "used": "10.95",
+      "percent": "31.35"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.79"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:13"
+  },
+  {
+    "cpu": "30.11",
+    "mem": {
+      "total": "34.94",
+      "used": "11.04",
+      "percent": "31.60"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:15"
+  },
+  {
+    "cpu": "13.98",
+    "mem": {
+      "total": "34.94",
+      "used": "11.03",
+      "percent": "31.58"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:17"
+  },
+  {
+    "cpu": "12.36",
+    "mem": {
+      "total": "34.94",
+      "used": "11.05",
+      "percent": "31.63"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.80"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:19"
+  },
+  {
+    "cpu": "16.45",
+    "mem": {
+      "total": "34.94",
+      "used": "11.09",
+      "percent": "31.73"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:21"
+  },
+  {
+    "cpu": "10.29",
+    "mem": {
+      "total": "34.94",
+      "used": "11.06",
+      "percent": "31.65"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "51.39",
+      "percent": "7.87"
+    },
+    "processes": [
+      {
+        "pid": 2193,
+        "name": "gnome-shell",
+        "cpu": "0.0",
+        "mem": "0.98"
+      },
+      {
+        "pid": 326891,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.81"
+      },
+      {
+        "pid": 717917,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 2660434,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.38"
+      },
+      {
+        "pid": 574655,
+        "name": "rygel",
+        "cpu": "0.0",
+        "mem": "0.31"
+      }
+    ],
+    "timestamp": "16:17:23"
+  }
+]

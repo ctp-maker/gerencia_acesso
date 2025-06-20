@@ -1,0 +1,71 @@
+body {
+  background: #f8f9fa;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 260px;
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.sidebar a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.sidebar a:hover,
+.sidebar .active {
+  color: #fff;
+}
+
+.content {
+  overflow-y: auto;
+  flex: 1;
+  padding: 25px;
+}
+
+  code {
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+.sidebar.hidden {
+  display: none !important;
+}
+
+/* Better contrast for code blocks */
+pre {
+  background: rgb(0, 0, 0)!important;
+  color: #fff!important;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+.copy-btn {
+  background: #0d6efd;
+}
+.copy-btn:hover { background: #0b5ed7; }
+
+/* Toggle language buttons */
+#langButtons .btn {
+  border-radius: 20px;
+}
+#langButtons .btn.active {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+#langButtons .btn:not(.active) {
+  background-color: #fff;
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+#langButtons .btn:not(.active):hover {
+  background-color: #e7f1ff;
+} 

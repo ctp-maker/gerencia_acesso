@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard de Monitoramento</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="/css/decoy.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1"><i class="fa fa-server me-2"></i>Dashboard</span>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow-sm">
+          <div class="card-body d-flex align-items-center justify-content-between">
+            <div>
+              <h6 class="card-title mb-1">CPU Usage</h6>
+              <h4 class="card-text" id="cpuVal">--%</h4>
+            </div>
+            <i class="fa fa-microchip card-icon text-primary"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow-sm">
+          <div class="card-body d-flex align-items-center justify-content-between">
+            <div>
+              <h6 class="card-title mb-1">RAM Usage</h6>
+              <h4 class="card-text" id="ramVal">--%</h4>
+            </div>
+            <i class="fa fa-memory card-icon text-success"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow-sm">
+          <div class="card-body d-flex align-items-center justify-content-between">
+            <div>
+              <h6 class="card-title mb-1">Network</h6>
+              <h4 class="card-text" id="netVal">--KB/s</h4>
+            </div>
+            <i class="fa fa-network-wired card-icon text-warning"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card shadow-sm">
+          <div class="card-body d-flex align-items-center justify-content-between">
+            <div>
+              <h6 class="card-title mb-1">Disk Space</h6>
+              <h4 class="card-text" id="diskVal">--%</h4>
+            </div>
+            <i class="fa fa-hdd card-icon text-danger"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 mt-4">
+      <div class="col-12">
+        <div class="card shadow-sm">
+          <div class="card-header bg-primary text-white">
+            Últimos Eventos
+          </div>
+          <ul class="list-group list-group-flush" id="eventList">
+            <li class="list-group-item">Inicializando monitoramento...</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-center text-white py-2">
+    <small>&copy; 2024 Monitoramento Corporativo</small>
+  </footer>
+
+  <script>
+    // Funções para gerar valores falsos
+    function randomPercent() {
+      return Math.floor(Math.random() * 60) + 20; // 20% - 80%
+    }
+    function randomNet() {
+      return Math.floor(Math.random() * 900) + 100; // 100 - 1000 KB/s
+    }
+
+    function updateStats() {
+      document.getElementById('cpuVal').textContent = randomPercent() + '%';
+      document.getElementById('ramVal').textContent = randomPercent() + '%';
+      document.getElementById('diskVal').textContent = randomPercent() + '%';
+      document.getElementById('netVal').textContent = randomNet() + ' KB/s';
+
+      // Add fake event
+      const eventList = document.getElementById('eventList');
+      const item = document.createElement('li');
+      const now = new Date().toLocaleTimeString('pt-BR');
+      const messages = [
+        'Ping ao servidor concluído',
+        'Backup finalizado',
+        'Verificação de integridade OK',
+        'Atualização automática concluída',
+        'Serviço reiniciado com sucesso'
+      ];
+      item.textContent = `[${now}] ${messages[Math.floor(Math.random()*messages.length)]}`;
+      item.className = 'list-group-item';
+      eventList.prepend(item);
+      // keep only last 6 events
+      while (eventList.children.length > 6) eventList.removeChild(eventList.lastChild);
+    }
+
+    // Atualiza a cada 5 segundos
+    updateStats();
+    setInterval(updateStats, 5000);
+  </script>
+</body>
+</html> 

@@ -1,0 +1,157 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.card {
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Estilos para o contêiner do gráfico de histórico */
+.chart-wrapper {
+  position: relative;
+  min-width: 1500px; /* Largura grande para garantir a rolagem */
+  height: 350px !important;
+}
+
+/* Novos estilos para o terminal */
+.terminal-input-group {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    padding: 0 .75rem;
+}
+
+.terminal-cwd-path {
+    font-family: monospace;
+    color: #6c757d;
+    margin-bottom: 4px;
+    word-break: break-all;
+}
+
+.terminal-prompt {
+    font-family: monospace;
+    font-weight: bold;
+    color: #212529;
+    padding-right: .5rem;
+}
+
+.terminal-input-wrapper {
+    position: relative;
+    flex-grow: 1;
+}
+
+.terminal-input {
+    position: relative;
+    border: none !important;
+    box-shadow: none !important;
+    padding-left: 0;
+    height: calc(1.5em + .75rem + 2px); /* Altura padrão do input do Bootstrap */
+    padding-top: .375rem;
+    padding-bottom: .375rem;
+}
+
+.terminal-input:focus {
+    outline: none !important;
+}
+
+#cmdInput {
+    background-color: transparent;
+    z-index: 2;
+}
+
+#cmdGhostInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #adb5bd; /* Cor do texto "fantasma" */
+    background-color: #fff;
+}
+
+/* Estilos para as abas do terminal */
+.terminal-tab {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-right: 1px solid #495057;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #343a40; /* bg-dark */
+    color: #ced4da; /* Cinza claro */
+}
+
+.terminal-tab.active {
+    background-color: #fff; /* Fundo do card-body */
+    color: #212529; /* Texto escuro */
+}
+
+.terminal-tab-close {
+    border: none;
+    background: none;
+    color: inherit;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1;
+    opacity: 0.6;
+}
+.terminal-tab-close:hover {
+    opacity: 1;
+}
+
+#terminalContent > div {
+    display: none;
+}
+
+#terminalContent > div.active {
+    display: block;
+}
+
+/* Estilos para Monitores de Serviço */
+.monitor-card {
+    transition: all 0.2s ease-in-out;
+}
+
+.monitor-card .card-title {
+    font-size: 1.1rem;
+}
+
+.status-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.status-online {
+    background-color: #28a745; /* Verde */
+}
+
+.status-offline {
+    background-color: #dc3545; /* Vermelho */
+}
+
+.status-checking {
+    background-color: #ffc107; /* Amarelo */
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(0.9); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(0.9); }
+}

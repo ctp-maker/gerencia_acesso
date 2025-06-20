@@ -1,0 +1,19 @@
+body {
+  background: #f5f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.card-icon {
+  font-size: 2rem;
+  opacity: 0.75;
+}
+
+footer {
+  margin-top: auto;
+} 
