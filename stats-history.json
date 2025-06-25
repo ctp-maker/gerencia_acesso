@@ -1,0 +1,4602 @@
+[
+  {
+    "cpu": "32.86",
+    "mem": {
+      "total": "34.94",
+      "used": "12.13",
+      "percent": "34.71"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 142800,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:05:50"
+  },
+  {
+    "cpu": "37.13",
+    "mem": {
+      "total": "34.94",
+      "used": "12.15",
+      "percent": "34.76"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 142800,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:05:52"
+  },
+  {
+    "cpu": "35.35",
+    "mem": {
+      "total": "34.94",
+      "used": "12.15",
+      "percent": "34.77"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 142800,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:05:54"
+  },
+  {
+    "cpu": "37.27",
+    "mem": {
+      "total": "34.94",
+      "used": "12.15",
+      "percent": "34.78"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 142800,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:05:56"
+  },
+  {
+    "cpu": "40.44",
+    "mem": {
+      "total": "34.94",
+      "used": "12.14",
+      "percent": "34.75"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 142800,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:05:58"
+  },
+  {
+    "cpu": "38.97",
+    "mem": {
+      "total": "34.94",
+      "used": "12.23",
+      "percent": "35.00"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 142800,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:06:00"
+  },
+  {
+    "cpu": "37.11",
+    "mem": {
+      "total": "34.94",
+      "used": "12.19",
+      "percent": "34.88"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.58"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 142800,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:06:02"
+  },
+  {
+    "cpu": "53.56",
+    "mem": {
+      "total": "34.94",
+      "used": "12.23",
+      "percent": "35.01"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 142800,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:06:04"
+  },
+  {
+    "cpu": "57.42",
+    "mem": {
+      "total": "34.94",
+      "used": "12.35",
+      "percent": "35.34"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:06"
+  },
+  {
+    "cpu": "43.92",
+    "mem": {
+      "total": "34.94",
+      "used": "12.38",
+      "percent": "35.44"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:08"
+  },
+  {
+    "cpu": "38.99",
+    "mem": {
+      "total": "34.94",
+      "used": "12.46",
+      "percent": "35.67"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.62"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:10"
+  },
+  {
+    "cpu": "34.28",
+    "mem": {
+      "total": "34.94",
+      "used": "12.42",
+      "percent": "35.53"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:12"
+  },
+  {
+    "cpu": "46.27",
+    "mem": {
+      "total": "34.94",
+      "used": "12.46",
+      "percent": "35.66"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:14"
+  },
+  {
+    "cpu": "29.45",
+    "mem": {
+      "total": "34.94",
+      "used": "12.48",
+      "percent": "35.70"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:16"
+  },
+  {
+    "cpu": "27.83",
+    "mem": {
+      "total": "34.94",
+      "used": "12.42",
+      "percent": "35.55"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:18"
+  },
+  {
+    "cpu": "32.07",
+    "mem": {
+      "total": "34.94",
+      "used": "12.40",
+      "percent": "35.50"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:20"
+  },
+  {
+    "cpu": "34.12",
+    "mem": {
+      "total": "34.94",
+      "used": "12.36",
+      "percent": "35.38"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:22"
+  },
+  {
+    "cpu": "38.65",
+    "mem": {
+      "total": "34.94",
+      "used": "12.35",
+      "percent": "35.34"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:24"
+  },
+  {
+    "cpu": "37.47",
+    "mem": {
+      "total": "34.94",
+      "used": "12.34",
+      "percent": "35.31"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:26"
+  },
+  {
+    "cpu": "25.73",
+    "mem": {
+      "total": "34.94",
+      "used": "12.24",
+      "percent": "35.02"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:28"
+  },
+  {
+    "cpu": "27.47",
+    "mem": {
+      "total": "34.94",
+      "used": "12.24",
+      "percent": "35.03"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:30"
+  },
+  {
+    "cpu": "38.02",
+    "mem": {
+      "total": "34.94",
+      "used": "12.28",
+      "percent": "35.13"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:32"
+  },
+  {
+    "cpu": "53.22",
+    "mem": {
+      "total": "34.94",
+      "used": "12.39",
+      "percent": "35.46"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:34"
+  },
+  {
+    "cpu": "51.69",
+    "mem": {
+      "total": "34.94",
+      "used": "12.52",
+      "percent": "35.83"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:36"
+  },
+  {
+    "cpu": "38.25",
+    "mem": {
+      "total": "34.94",
+      "used": "12.50",
+      "percent": "35.77"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:38"
+  },
+  {
+    "cpu": "30.86",
+    "mem": {
+      "total": "34.94",
+      "used": "12.47",
+      "percent": "35.68"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:40"
+  },
+  {
+    "cpu": "36.43",
+    "mem": {
+      "total": "34.94",
+      "used": "12.32",
+      "percent": "35.25"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.67"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:06:42"
+  },
+  {
+    "cpu": "40.46",
+    "mem": {
+      "total": "34.94",
+      "used": "12.30",
+      "percent": "35.19"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.62"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:06:44"
+  },
+  {
+    "cpu": "53.26",
+    "mem": {
+      "total": "34.94",
+      "used": "12.37",
+      "percent": "35.41"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.74",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:06:46"
+  },
+  {
+    "cpu": "46.07",
+    "mem": {
+      "total": "34.94",
+      "used": "12.49",
+      "percent": "35.74"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.74",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:06:48"
+  },
+  {
+    "cpu": "63.64",
+    "mem": {
+      "total": "34.94",
+      "used": "12.67",
+      "percent": "36.27"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.74",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:06:50"
+  },
+  {
+    "cpu": "54.17",
+    "mem": {
+      "total": "34.94",
+      "used": "12.75",
+      "percent": "36.47"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.74",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.65"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:06:52"
+  },
+  {
+    "cpu": "52.64",
+    "mem": {
+      "total": "34.94",
+      "used": "12.80",
+      "percent": "36.63"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.74",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:06:54"
+  },
+  {
+    "cpu": "45.75",
+    "mem": {
+      "total": "34.94",
+      "used": "12.82",
+      "percent": "36.68"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.74",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:56"
+  },
+  {
+    "cpu": "38.84",
+    "mem": {
+      "total": "34.94",
+      "used": "12.83",
+      "percent": "36.70"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.74",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:06:58"
+  },
+  {
+    "cpu": "31.73",
+    "mem": {
+      "total": "34.94",
+      "used": "12.78",
+      "percent": "36.58"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.74",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:00"
+  },
+  {
+    "cpu": "42.29",
+    "mem": {
+      "total": "34.94",
+      "used": "12.68",
+      "percent": "36.29"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.74",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.66"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:02"
+  },
+  {
+    "cpu": "56.87",
+    "mem": {
+      "total": "34.94",
+      "used": "12.70",
+      "percent": "36.33"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.74",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.67"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.63"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:04"
+  },
+  {
+    "cpu": "51.05",
+    "mem": {
+      "total": "34.94",
+      "used": "12.47",
+      "percent": "35.69"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.68"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:06"
+  },
+  {
+    "cpu": "31.19",
+    "mem": {
+      "total": "34.94",
+      "used": "12.47",
+      "percent": "35.67"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.68"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:08"
+  },
+  {
+    "cpu": "28.47",
+    "mem": {
+      "total": "34.94",
+      "used": "12.44",
+      "percent": "35.60"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.68"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:10"
+  },
+  {
+    "cpu": "30.09",
+    "mem": {
+      "total": "34.94",
+      "used": "12.40",
+      "percent": "35.50"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.68"
+      },
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:12"
+  },
+  {
+    "cpu": "28.94",
+    "mem": {
+      "total": "34.94",
+      "used": "12.35",
+      "percent": "35.34"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:14"
+  },
+  {
+    "cpu": "37.12",
+    "mem": {
+      "total": "34.94",
+      "used": "12.25",
+      "percent": "35.06"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:16"
+  },
+  {
+    "cpu": "31.53",
+    "mem": {
+      "total": "34.94",
+      "used": "12.13",
+      "percent": "34.70"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:18"
+  },
+  {
+    "cpu": "34.36",
+    "mem": {
+      "total": "34.94",
+      "used": "12.09",
+      "percent": "34.60"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:20"
+  },
+  {
+    "cpu": "27.31",
+    "mem": {
+      "total": "34.94",
+      "used": "12.02",
+      "percent": "34.41"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:22"
+  },
+  {
+    "cpu": "27.99",
+    "mem": {
+      "total": "34.94",
+      "used": "12.00",
+      "percent": "34.34"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:07:24"
+  },
+  {
+    "cpu": "26.85",
+    "mem": {
+      "total": "34.94",
+      "used": "11.97",
+      "percent": "34.27"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:07:26"
+  },
+  {
+    "cpu": "30.01",
+    "mem": {
+      "total": "34.94",
+      "used": "11.96",
+      "percent": "34.23"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:28"
+  },
+  {
+    "cpu": "24.98",
+    "mem": {
+      "total": "34.94",
+      "used": "11.94",
+      "percent": "34.16"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:30"
+  },
+  {
+    "cpu": "28.15",
+    "mem": {
+      "total": "34.94",
+      "used": "11.94",
+      "percent": "34.16"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:32"
+  },
+  {
+    "cpu": "27.01",
+    "mem": {
+      "total": "34.94",
+      "used": "11.94",
+      "percent": "34.17"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:34"
+  },
+  {
+    "cpu": "27.20",
+    "mem": {
+      "total": "34.94",
+      "used": "11.94",
+      "percent": "34.17"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:36"
+  },
+  {
+    "cpu": "29.67",
+    "mem": {
+      "total": "34.94",
+      "used": "11.94",
+      "percent": "34.18"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:38"
+  },
+  {
+    "cpu": "33.70",
+    "mem": {
+      "total": "34.94",
+      "used": "11.98",
+      "percent": "34.29"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.62"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:40"
+  },
+  {
+    "cpu": "36.76",
+    "mem": {
+      "total": "34.94",
+      "used": "11.98",
+      "percent": "34.28"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.62"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:42"
+  },
+  {
+    "cpu": "36.15",
+    "mem": {
+      "total": "34.94",
+      "used": "12.09",
+      "percent": "34.59"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:44"
+  },
+  {
+    "cpu": "29.10",
+    "mem": {
+      "total": "34.94",
+      "used": "12.06",
+      "percent": "34.52"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:46"
+  },
+  {
+    "cpu": "32.86",
+    "mem": {
+      "total": "34.94",
+      "used": "12.02",
+      "percent": "34.39"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:48"
+  },
+  {
+    "cpu": "28.84",
+    "mem": {
+      "total": "34.94",
+      "used": "12.00",
+      "percent": "34.35"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:50"
+  },
+  {
+    "cpu": "27.05",
+    "mem": {
+      "total": "34.94",
+      "used": "11.94",
+      "percent": "34.18"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.51"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:52"
+  },
+  {
+    "cpu": "37.81",
+    "mem": {
+      "total": "34.94",
+      "used": "11.98",
+      "percent": "34.28"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:54"
+  },
+  {
+    "cpu": "33.91",
+    "mem": {
+      "total": "34.94",
+      "used": "11.97",
+      "percent": "34.25"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:07:56"
+  },
+  {
+    "cpu": "34.03",
+    "mem": {
+      "total": "34.94",
+      "used": "11.98",
+      "percent": "34.27"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:07:58"
+  },
+  {
+    "cpu": "37.15",
+    "mem": {
+      "total": "34.94",
+      "used": "11.99",
+      "percent": "34.31"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:08:00"
+  },
+  {
+    "cpu": "29.96",
+    "mem": {
+      "total": "34.94",
+      "used": "11.98",
+      "percent": "34.27"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:02"
+  },
+  {
+    "cpu": "30.64",
+    "mem": {
+      "total": "34.94",
+      "used": "11.99",
+      "percent": "34.31"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.54"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:04"
+  },
+  {
+    "cpu": "25.69",
+    "mem": {
+      "total": "34.94",
+      "used": "11.95",
+      "percent": "34.21"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.54"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:06"
+  },
+  {
+    "cpu": "24.12",
+    "mem": {
+      "total": "34.94",
+      "used": "11.96",
+      "percent": "34.23"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:08"
+  },
+  {
+    "cpu": "25.80",
+    "mem": {
+      "total": "34.94",
+      "used": "11.96",
+      "percent": "34.22"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.54"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:10"
+  },
+  {
+    "cpu": "25.88",
+    "mem": {
+      "total": "34.94",
+      "used": "11.95",
+      "percent": "34.20"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.54"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:12"
+  },
+  {
+    "cpu": "45.66",
+    "mem": {
+      "total": "34.94",
+      "used": "12.09",
+      "percent": "34.60"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.54"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:14"
+  },
+  {
+    "cpu": "39.72",
+    "mem": {
+      "total": "34.94",
+      "used": "11.99",
+      "percent": "34.30"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:16"
+  },
+  {
+    "cpu": "46.85",
+    "mem": {
+      "total": "34.94",
+      "used": "12.14",
+      "percent": "34.74"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.62"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:18"
+  },
+  {
+    "cpu": "34.48",
+    "mem": {
+      "total": "34.94",
+      "used": "12.16",
+      "percent": "34.79"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:20"
+  },
+  {
+    "cpu": "36.16",
+    "mem": {
+      "total": "34.94",
+      "used": "12.16",
+      "percent": "34.80"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:22"
+  },
+  {
+    "cpu": "34.20",
+    "mem": {
+      "total": "34.94",
+      "used": "12.18",
+      "percent": "34.85"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:24"
+  },
+  {
+    "cpu": "49.27",
+    "mem": {
+      "total": "34.94",
+      "used": "12.27",
+      "percent": "35.12"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.75",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:26"
+  },
+  {
+    "cpu": "75.99",
+    "mem": {
+      "total": "34.94",
+      "used": "12.52",
+      "percent": "35.82"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:28"
+  },
+  {
+    "cpu": "49.81",
+    "mem": {
+      "total": "34.94",
+      "used": "12.62",
+      "percent": "36.10"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.62"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:08:30"
+  },
+  {
+    "cpu": "46.08",
+    "mem": {
+      "total": "34.94",
+      "used": "12.63",
+      "percent": "36.15"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.62"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:08:32"
+  },
+  {
+    "cpu": "33.90",
+    "mem": {
+      "total": "34.94",
+      "used": "12.59",
+      "percent": "36.03"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.62"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:08:34"
+  },
+  {
+    "cpu": "34.20",
+    "mem": {
+      "total": "34.94",
+      "used": "12.49",
+      "percent": "35.74"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:08:36"
+  },
+  {
+    "cpu": "41.94",
+    "mem": {
+      "total": "34.94",
+      "used": "12.37",
+      "percent": "35.40"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:38"
+  },
+  {
+    "cpu": "44.96",
+    "mem": {
+      "total": "34.94",
+      "used": "12.35",
+      "percent": "35.35"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:40"
+  },
+  {
+    "cpu": "39.70",
+    "mem": {
+      "total": "34.94",
+      "used": "12.40",
+      "percent": "35.48"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:42"
+  },
+  {
+    "cpu": "35.22",
+    "mem": {
+      "total": "34.94",
+      "used": "12.28",
+      "percent": "35.15"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:44"
+  },
+  {
+    "cpu": "30.36",
+    "mem": {
+      "total": "34.94",
+      "used": "12.25",
+      "percent": "35.06"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.07"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:46"
+  },
+  {
+    "cpu": "41.02",
+    "mem": {
+      "total": "34.94",
+      "used": "12.22",
+      "percent": "34.98"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:48"
+  },
+  {
+    "cpu": "38.62",
+    "mem": {
+      "total": "34.94",
+      "used": "12.21",
+      "percent": "34.94"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.61"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:50"
+  },
+  {
+    "cpu": "35.96",
+    "mem": {
+      "total": "34.94",
+      "used": "11.46",
+      "percent": "32.79"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:52"
+  },
+  {
+    "cpu": "30.00",
+    "mem": {
+      "total": "34.94",
+      "used": "11.44",
+      "percent": "32.74"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:54"
+  },
+  {
+    "cpu": "22.82",
+    "mem": {
+      "total": "34.94",
+      "used": "11.42",
+      "percent": "32.68"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.60"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:56"
+  },
+  {
+    "cpu": "26.31",
+    "mem": {
+      "total": "34.94",
+      "used": "11.42",
+      "percent": "32.67"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:08:58"
+  },
+  {
+    "cpu": "29.44",
+    "mem": {
+      "total": "34.94",
+      "used": "11.41",
+      "percent": "32.65"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:09:00"
+  },
+  {
+    "cpu": "27.40",
+    "mem": {
+      "total": "34.94",
+      "used": "11.46",
+      "percent": "32.79"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.62"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.52"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:09:02"
+  },
+  {
+    "cpu": "28.47",
+    "mem": {
+      "total": "34.94",
+      "used": "11.43",
+      "percent": "32.71"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:09:04"
+  },
+  {
+    "cpu": "28.10",
+    "mem": {
+      "total": "34.94",
+      "used": "11.41",
+      "percent": "32.65"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 142800,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.50"
+      }
+    ],
+    "timestamp": "01:09:06"
+  },
+  {
+    "cpu": "35.41",
+    "mem": {
+      "total": "34.94",
+      "used": "11.39",
+      "percent": "32.59"
+    },
+    "disk": {
+      "total": "819.43",
+      "used": "65.76",
+      "percent": "10.08"
+    },
+    "processes": [
+      {
+        "pid": 4373,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.64"
+      },
+      {
+        "pid": 3336,
+        "name": "firefox-esr",
+        "cpu": "0.0",
+        "mem": "0.59"
+      },
+      {
+        "pid": 122322,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.56"
+      },
+      {
+        "pid": 4367,
+        "name": "cursor",
+        "cpu": "0.0",
+        "mem": "0.53"
+      },
+      {
+        "pid": 122984,
+        "name": "node",
+        "cpu": "0.0",
+        "mem": "0.51"
+      }
+    ],
+    "timestamp": "01:09:08"
+  }
+]

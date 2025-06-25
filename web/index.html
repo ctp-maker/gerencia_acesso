@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de E-mails</title>
+    <link rel="icon" href="/web/gmail.ico">
+    <link rel="stylesheet" href="/web/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Tela de Login -->
+    <div id="loginScreen" class="screen active">
+        <div class="login-container">
+            <div class="login-card">
+                <h1>Gerenciador de E-mails</h1>
+                <p class="login-subtitle">Faça login para acessar seus e-mails</p>
+                
+                <form id="loginForm" class="login-form">
+                    <div class="input-group">
+                        <label for="username">Usuário</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    
+                    <button type="submit" class="login-button">Entrar</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Tela Principal -->
+    <div id="mainScreen" class="screen">
+        <header class="header">
+            <h1>Meus E-mails</h1>
+            <div class="header-actions">
+                <button id="syncButton" class="sync-button">
+                    <span id="syncText">Sinc</span>
+                </button>
+                <button id="clearButton" class="clear-button">Limpar</button>
+                <button id="logoutButton" class="logout-button">Sair</button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div id="emailList" class="email-list">
+                <!-- E-mails serão inseridos aqui dinamicamente -->
+            </div>
+
+            <div id="emptyState" class="empty-state" style="display: none;">
+                <h2>Nenhum e-mail cadastrado</h2>
+                <p>Adicione seu primeiro e-mail para começar a gerenciar</p>
+            </div>
+        </main>
+
+        <!-- Botão FAB -->
+        <button id="fabButton" class="fab">
+            <span>+</span>
+        </button>
+
+        <!-- Status de Sincronização -->
+        <div class="sync-status">
+            <div class="status-container">
+                <div id="statusDot" class="status-dot"></div>
+                <span id="statusText" class="status-text">Sincronizado</span>
+            </div>
+            <div id="lastSyncText" class="last-sync-text"></div>
+        </div>
+    </div>
+
+    <!-- Overlay para modais -->
+    <div id="modalOverlay" class="modal-overlay">
+        <!-- Modal Adicionar E-mail -->
+        <div id="addEmailModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Adicionar E-mail</h2>
+                    <button class="modal-close" id="closeAddEmailModal">&times;</button>
+                </div>
+                
+                <form id="addEmailForm" class="modal-form">
+                    <div class="input-group">
+                        <label for="emailInput">E-mail</label>
+                        <input type="email" id="emailInput" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="passwordInput">Senha</label>
+                        <input type="password" id="passwordInput" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="usesInput">Usos (separados por vírgula)</label>
+                        <input type="text" id="usesInput" placeholder="Ex: Netflix, Spotify, Instagram">
+                    </div>
+                    
+                    <div class="modal-actions">
+                        <button type="button" class="cancel-button" id="cancelAddEmail">Cancelar</button>
+                        <button type="submit" class="confirm-button">Adicionar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Modal Adicionar Uso -->
+        <div id="addUseModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Adicionar Uso</h2>
+                    <button class="modal-close" id="closeAddUseModal">&times;</button>
+                </div>
+                
+                <form id="addUseForm" class="modal-form">
+                    <div class="input-group">
+                        <label for="useInput">Novo Uso</label>
+                        <input type="text" id="useInput" required>
+                    </div>
+                    
+                    <div class="modal-actions">
+                        <button type="button" class="cancel-button" id="cancelAddUse">Cancelar</button>
+                        <button type="submit" class="confirm-button">Adicionar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Modal de Confirmação -->
+        <div id="confirmModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="confirmTitle">Confirmar</h2>
+                    <button class="modal-close" id="closeConfirmModal">&times;</button>
+                </div>
+                
+                <div class="modal-body">
+                    <p id="confirmMessage">Tem certeza?</p>
+                </div>
+                
+                <div class="modal-actions">
+                    <button class="cancel-button" id="cancelConfirm">Cancelar</button>
+                    <button class="confirm-button" id="confirmAction">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="/web/config.js"></script>
+    <script type="module" src="/web/firebase-config.js"></script>
+    <script type="module" src="/web/app.js"></script>
+</body>
+</html> 

@@ -510,6 +510,14 @@ app.get('/aws159357', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'aws159357.html'));
 });
 
+// Rota para o gerenciador de e-mails
+app.get('/email', (req, res) => {
+  res.sendFile(path.join(__dirname, 'web', 'index.html'));
+});
+
+// Servir arquivos estáticos da pasta web
+app.use('/web', express.static(path.join(__dirname, 'web')));
+
 app.get('/', (req, res) => {
   res.status(200).sendFile(path.join(__dirname, 'public', 'index.html'));
 });
