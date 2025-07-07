@@ -677,176 +677,152 @@ document.addEventListener('DOMContentLoaded', () => {
   // Carrega o histórico assim que o gráfico é criado
   loadInitialHistory();
 
-  // ----- FUNÇÕES PARA ATALHOS DE COMANDOS -----
-  
-  // Template para card de atalho
-  const shortcutCardTemplate = (shortcut) => `
-    <div class="col-md-6 col-lg-4 mb-3">
-      <div class="card shortcut-card h-100" data-shortcut-id="${shortcut.id}">
-        <div class="card-body">
-          <h5 class="card-title">${shortcut.name}</h5>
-          ${shortcut.description ? `<p class="card-text">${shortcut.description}</p>` : ''}
-          <div class="shortcut-command mb-3">${shortcut.command}</div>
-          <button class="btn btn-primary btn-sm execute-shortcut-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill me-1" viewBox="0 0 16 16">
-              <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-            </svg>
-            Executar
-          </button>
-          <button class="btn btn-outline-secondary btn-sm edit-shortcut-btn ms-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil me-1" viewBox="0 0 16 16">
-              <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
-            </svg>
-            Editar
-          </button>
-          <div class="shortcut-message"></div>
-        </div>
-      </div>
-    </div>
-  `;
-
-  // Renderizar atalhos
-  const renderShortcuts = async () => {
-    try {
-      const response = await fetch('/api/shortcuts');
-      const shortcuts = await response.json();
-      
-      const container = document.getElementById('shortcutsContainer');
-      container.innerHTML = '';
-      
-      if (shortcuts.length === 0) {
-        container.innerHTML = `
-          <div class="col-12">
-            <div class="alert alert-info text-center">
-              Nenhum atalho configurado. Clique em "Adicionar Novo Atalho" para criar um.
-            </div>
-          </div>
-        `;
-        return;
-      }
-      
-      shortcuts.forEach(shortcut => {
-        container.insertAdjacentHTML('beforeend', shortcutCardTemplate(shortcut));
-      });
-      
-      // Adicionar event listeners aos cards
-      container.addEventListener('click', handleShortcutClick);
-      
-    } catch (error) {
-      console.error('Erro ao carregar atalhos:', error);
-    }
-  };
-
-  // Manipular cliques nos atalhos
-  const handleShortcutClick = async (event) => {
-    const target = event.target;
-    const card = target.closest('.shortcut-card');
-    if (!card) return;
-    
-    const shortcutId = card.dataset.shortcutId;
-    const shortcuts = await fetch('/api/shortcuts').then(r => r.json());
-    const shortcut = shortcuts.find(s => s.id === shortcutId);
-    
-    if (target.matches('.execute-shortcut-btn')) {
-      // Executar atalho
-      const btn = target;
-      const messageDiv = card.querySelector('.shortcut-message');
-      
-      card.classList.add('shortcut-executing');
-      btn.textContent = 'Executando...';
-      messageDiv.style.display = 'none';
-      
-      try {
-        const response = await fetch('/api/shortcuts/execute', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ shortcutId })
-        });
-        
-        const result = await response.json();
-        
-        messageDiv.textContent = result.success ? 
-          `✅ ${result.message}` : 
-          `❌ ${result.error}`;
-        messageDiv.className = `shortcut-message ${result.success ? 'success' : 'error'}`;
-        messageDiv.style.display = 'block';
-        
-      } catch (error) {
-        messageDiv.textContent = `❌ Erro ao executar comando: ${error.message}`;
-        messageDiv.className = 'shortcut-message error';
-        messageDiv.style.display = 'block';
-      } finally {
-        card.classList.remove('shortcut-executing');
-        btn.innerHTML = `
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill me-1" viewBox="0 0 16 16">
-            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-          </svg>
-          Executar
-        `;
-      }
-      
-    } else if (target.matches('.edit-shortcut-btn')) {
-      // Editar atalho
-      document.getElementById('shortcutId').value = shortcut.id;
-      document.getElementById('shortcutName').value = shortcut.name;
-      document.getElementById('shortcutCommand').value = shortcut.command;
-      document.getElementById('shortcutDescription').value = shortcut.description || '';
-      
-      document.getElementById('deleteShortcutBtn').style.display = 'block';
-      new bootstrap.Modal(document.getElementById('shortcutModal')).show();
-    }
-  };
-
-  // Event listeners para o modal de atalhos
+  // ----- LÓGICA DOS ATALHOS DE COMANDOS -----
+  const shortcutsContainer = document.getElementById('shortcutsContainer');
   const shortcutModal = new bootstrap.Modal(document.getElementById('shortcutModal'));
   const shortcutForm = document.getElementById('shortcutForm');
+  const shortcutModalTitle = document.getElementById('shortcutModalLabel');
   const addShortcutBtn = document.getElementById('addShortcutBtn');
   const saveShortcutBtn = document.getElementById('saveShortcutBtn');
   const deleteShortcutBtn = document.getElementById('deleteShortcutBtn');
 
-  // Adicionar novo atalho
+  const shortcutCardTemplate = (shortcut) => `
+    <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card shortcut-card" id="shortcut-${shortcut.id}">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <h5 class="card-title">${shortcut.name}</h5>
+                        ${shortcut.description ? `<p class="card-text">${shortcut.description}</p>` : ''}
+                        <div class="shortcut-command">${shortcut.command.replace(/\n/g, '<br>')}</div>
+                    </div>
+                    <button class="btn btn-sm btn-outline-secondary edit-shortcut-btn" data-id="${shortcut.id}">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16"><path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5L13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175l-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/></svg>
+                    </button>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <button class="btn btn-primary execute-shortcut-btn" data-id="${shortcut.id}">
+                        Executar Comando
+                    </button>
+                </div>
+                <div id="shortcut-message-${shortcut.id}" class="shortcut-message" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+  `;
+
+  const renderShortcuts = async () => {
+      const shortcuts = await (await fetch('/api/shortcuts')).json();
+      shortcutsContainer.innerHTML = '';
+
+      for (const shortcut of shortcuts) {
+          shortcutsContainer.innerHTML += shortcutCardTemplate(shortcut);
+      }
+  };
+
+  // Event listeners para atalhos
   addShortcutBtn.addEventListener('click', () => {
-    document.getElementById('shortcutId').value = '';
-    document.getElementById('shortcutName').value = '';
-    document.getElementById('shortcutCommand').value = '';
-    document.getElementById('shortcutDescription').value = '';
-    document.getElementById('deleteShortcutBtn').style.display = 'none';
-    shortcutModal.show();
+      shortcutModalTitle.textContent = 'Adicionar Novo Atalho';
+      shortcutForm.reset();
+      document.getElementById('shortcutId').value = '';
+      deleteShortcutBtn.style.display = 'none';
   });
 
-  // Salvar atalho
-  saveShortcutBtn.addEventListener('click', async () => {
-    if (!shortcutForm.checkValidity()) {
-      shortcutForm.reportValidity();
-      return;
+  shortcutsContainer.addEventListener('click', async (e) => {
+    const target = e.target.closest('.edit-shortcut-btn, .execute-shortcut-btn');
+    if (!target) return;
+
+    const id = target.dataset.id;
+    const shortcuts = await (await fetch('/api/shortcuts')).json();
+    const shortcut = shortcuts.find(s => s.id === id);
+    const messageDiv = document.getElementById(`shortcut-message-${id}`);
+    messageDiv.style.display = 'none';
+    messageDiv.textContent = '';
+
+    if (target.matches('.edit-shortcut-btn')) {
+        shortcutModalTitle.textContent = 'Editar Atalho';
+        document.getElementById('shortcutId').value = shortcut.id;
+        document.getElementById('shortcutName').value = shortcut.name;
+        document.getElementById('shortcutCommand').value = shortcut.command;
+        document.getElementById('shortcutDescription').value = shortcut.description || '';
+        deleteShortcutBtn.style.display = 'block';
+        shortcutModal.show();
+    } else if (target.matches('.execute-shortcut-btn')) {
+        const card = document.getElementById(`shortcut-${id}`);
+        const btn = target;
+        
+        // Adiciona estado de execução
+        card.classList.add('shortcut-executing');
+        btn.textContent = 'Executando...';
+        btn.disabled = true;
+        
+        try {
+            const res = await fetch('/api/shortcuts/execute', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ shortcutId: shortcut.id })
+            });
+            
+            const data = await res.json();
+            
+            if (res.ok) {
+                messageDiv.textContent = data.message;
+                messageDiv.className = 'shortcut-message success';
+                messageDiv.style.display = 'block';
+                
+                // Para comandos em background, não mostra saída detalhada
+                if (data.output && !data.message.includes('background')) {
+                    messageDiv.textContent += `\n\nSaída:\n${data.output}`;
+                }
+            } else {
+                messageDiv.textContent = `Erro: ${data.details || data.error}`;
+                messageDiv.className = 'shortcut-message error';
+                messageDiv.style.display = 'block';
+            }
+        } catch (error) {
+            messageDiv.textContent = `Erro de conexão: ${error.message}`;
+            messageDiv.className = 'shortcut-message error';
+            messageDiv.style.display = 'block';
+        } finally {
+            // Remove estado de execução
+            card.classList.remove('shortcut-executing');
+            btn.textContent = 'Executar Comando';
+            btn.disabled = false;
+        }
     }
-    
-    const shortcut = {
-      id: document.getElementById('shortcutId').value,
-      name: document.getElementById('shortcutName').value,
-      command: document.getElementById('shortcutCommand').value,
-      description: document.getElementById('shortcutDescription').value
-    };
-
-    await fetch('/api/shortcuts', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(shortcut)
-    });
-
-    shortcutModal.hide();
-    renderShortcuts();
   });
 
-  // Deletar atalho
-  deleteShortcutBtn.addEventListener('click', async () => {
-    const id = document.getElementById('shortcutId').value;
-    if (confirm('Tem certeza que deseja deletar este atalho?')) {
-      await fetch(`/api/shortcuts/${id}`, { method: 'DELETE' });
+  saveShortcutBtn.addEventListener('click', async () => {
+      if (!shortcutForm.checkValidity()) {
+          shortcutForm.reportValidity();
+          return;
+      }
+      
+      const shortcut = {
+          id: document.getElementById('shortcutId').value,
+          name: document.getElementById('shortcutName').value,
+          command: document.getElementById('shortcutCommand').value,
+          description: document.getElementById('shortcutDescription').value || null
+      };
+
+      await fetch('/api/shortcuts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(shortcut)
+      });
+
       shortcutModal.hide();
       renderShortcuts();
-    }
   });
 
-  // ----- FIM DAS FUNÇÕES PARA ATALHOS DE COMANDOS -----
+  deleteShortcutBtn.addEventListener('click', async () => {
+      const id = document.getElementById('shortcutId').value;
+      if (confirm('Tem certeza que deseja deletar este atalho?')) {
+          await fetch(`/api/shortcuts/${id}`, { method: 'DELETE' });
+          shortcutModal.hide();
+          renderShortcuts();
+      }
+  });
+
+  // ----- FIM DA LÓGICA DOS ATALHOS DE COMANDOS -----
 }); 

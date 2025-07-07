@@ -1,12 +1,8 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const { initializeApp } = require('firebase/app');
-const { getFirestore, collection, addDoc, getDocs, getDoc, deleteDoc, doc, query, where, setDoc } = require('firebase/firestore');
-const CryptoJS = require('crypto-js');
 const { v4: uuidv4 } = require('uuid');
 const path = require('path');
-const fetch = require('node-fetch');
 const si = require('systeminformation');
 const { WebSocketServer } = require('ws');
 const { exec } = require('child_process');
@@ -14,6 +10,7 @@ const fs = require('fs');
 const bodyParser = require('body-parser');
 const util = require('util');
 const execPromise = util.promisify(exec);
+const os = require('os');
 
 const app = express();
 
@@ -36,219 +33,6 @@ setInterval(() => {
     }
   }
 }, 3600000);
-
-// Chave de criptografia
-const ENCRYPTION_KEY = "CTPJESUSATEULALALA";
-
-// Firebase configuration - Agora usando variáveis de ambiente
-const firebaseConfig = {
-  apiKey: "AIzaSyCpdJK1PJ9oTbZj6pvpJxozV0BwVi0eVIY",
-  authDomain: "gerenciador-dados.firebaseapp.com",
-  databaseURL: "https://gerenciador-dados-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "gerenciador-dados",
-  storageBucket: "gerenciador-dados.firebasestorage.app",
-  messagingSenderId: "964632484627",
-  appId: "1:964632484627:web:31b295cd5956889bb218e6",
-  measurementId: "G-CSG8YMHEZ9"
-};
-
-// Initialize Firebase
-const firebaseApp = initializeApp(firebaseConfig);
-const db = getFirestore(firebaseApp);
-
-// Endpoint para salvar dados
-app.post('/data', async (req, res) => {
-  console.log('POST /data - Recebendo novos dados');
-  try {
-    const { name, value, url } = req.body;
-    if (!name || !value || !url) {
-      console.log('Erro: name ou value não fornecidos');
-      return res.status(400).json({ error: 'Nome e valor são obrigatórios' });
-    }
-
-    // Gera um ID único para o documento
-    const documentId = uuidv4();
-    
-    // Criptografa o valor antes de salvar
-    const encryptedValue = CryptoJS.AES.encrypt(value, ENCRYPTION_KEY).toString();
-    const encryptedUrl = CryptoJS.AES.encrypt(url, ENCRYPTION_KEY).toString();
-    // Cria o documento com os dados
-    const dataDoc = {
-      name,
-      value: encryptedValue, // Salva o valor criptografado
-      url: encryptedUrl, // Salva o url criptografado
-      documentId,
-      createdAt: new Date(),
-      active: true
-    };
-
-    console.log(`Armazenando dados: ${name}`);
-    const docRef = await setDoc(doc(db, 'stored_data', documentId), dataDoc);
-    console.log(`Dados armazenados com sucesso. ID: ${documentId}`);
-    
-    res.status(201).json({ 
-      message: 'Dados armazenados com sucesso', 
-      documentId: documentId,
-      name: name
-    });
-  } catch (error) {
-    console.error('Erro ao armazenar dados:', error);
-    res.status(500).json({ error: 'Erro interno do servidor' });
-  }
-});
-
-// Endpoint para visualizar todos os dados (com descriptografia automática)
-app.get('/data', async (req, res) => {
-  console.log('GET /data - Listando todos os dados');
-  try {
-    const querySnapshot = await getDocs(collection(db, 'stored_data'));
-    const data = [];
-
-    // Helper to check url status
-    const checkUrlStatus = async (plainUrl) => {
-      if (!plainUrl) return 'Nao definido';
-      const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 5000); // 5s timeout
-      try {
-        const resp = await fetch(plainUrl, { method: 'GET', signal: controller.signal });
-        clearTimeout(timeout);
-        return resp.status === 200 ? 'online' : `erro ${resp.status}`;
-      } catch (err) {
-        return 'offline';
-      }
-    };
-
-    for (const docSnap of querySnapshot.docs) {
-      const docData = docSnap.data();
-      if (docData.active === false) continue;
-      let decryptedValue = '[Erro ao descriptografar]';
-      let decryptedUrl = '';
-      try {
-        decryptedValue = CryptoJS.AES.decrypt(docData.value, ENCRYPTION_KEY).toString(CryptoJS.enc.Utf8);
-        decryptedUrl = CryptoJS.AES.decrypt(docData.url, ENCRYPTION_KEY).toString(CryptoJS.enc.Utf8);
-      } catch (e) {
-        console.error('Erro descriptografia:', e);
-      }
-
-      // Check URL status
-      let status = await checkUrlStatus(decryptedUrl);
-
-      data.push({
-        id: docSnap.id,
-        name: docData.name,
-        value: decryptedValue,
-        url: decryptedUrl,
-        status,
-        documentId: docData.documentId,
-        createdAt: docData.createdAt
-      });
-    }
-
-    console.log(`Encontrados ${data.length} registros`);
-    res.json(data);
-  } catch (error) {
-    console.error('Erro ao buscar dados:', error);
-    res.status(500).json({ error: 'Erro interno do servidor' });
-  }
-});
-
-// Endpoint para buscar dados específicos (com criptografia adicional para acesso externo)
-app.get('/data/:documentId', async (req, res) => {
-  console.log(`GET /data/${req.params.documentId} - Buscando dados específicos`);
-  try {
-    const { secretKey } = req.query;
-    
-    if (!secretKey) {
-      return res.status(400).json({ error: 'Chave secreta é obrigatória para acesso externo' });
-    }
-    
-    const docRef = doc(db, 'stored_data', req.params.documentId);
-    const docSnap = await getDoc(docRef);
-    
-    if (!docSnap.exists()) {
-      return res.status(404).json({ error: 'Dados não encontrados' });
-    }
-    
-    const data = docSnap.data();
-    // Aplica uma segunda camada de criptografia para acesso externo
-    const doubleEncryptedValue = CryptoJS.AES.encrypt(data.value, secretKey).toString();
-    
-    res.json({
-      id: docSnap.id,
-      name: data.name,
-      encryptedValue: doubleEncryptedValue,
-      documentId: data.documentId,
-      createdAt: data.createdAt
-    });
-  } catch (error) {
-    console.error('Erro ao buscar dados específicos:', error);
-    res.status(500).json({ error: 'Erro interno do servidor' });
-  }
-});
-
-// Endpoint para deletar dados
-app.delete('/data/:documentId', async (req, res) => {
-  console.log(`DELETE /data/${req.params.documentId} - Deletando dados`);
-  try {
-    const docRef = doc(db, 'stored_data', req.params.documentId);
-    const docSnap = await getDoc(docRef);
-    
-    if (!docSnap.exists()) {
-      return res.status(404).json({ error: 'Dados não encontrados' });
-    }
-    
-    const data = docSnap.data();
-    
-    // Soft delete: set active false
-    await setDoc(docRef, { active: false, deletedAt: new Date() }, { merge: true });
-    
-    res.json({ 
-      message: 'Dados desativados com sucesso',
-      documentId: req.params.documentId,
-      name: data.name,
-      deletedAt: new Date()
-    });
-  } catch (error) {
-    console.error('Erro ao deletar dados:', error);
-    res.status(500).json({ error: 'Erro interno do servidor' });
-  }
-});
-
-// Endpoint para atualizar dados
-app.put('/data/:documentId', async (req, res) => {
-  console.log(`PUT /data/${req.params.documentId} - Atualizando dados`);
-  try {
-    const { name, value, url } = req.body;
-    if (!name || !value || !url) {
-      return res.status(400).json({ error: 'Nome, valor e URL são obrigatórios' });
-    }
-
-    const docRef = doc(db, 'stored_data', req.params.documentId);
-    const docSnap = await getDoc(docRef);
-
-    if (!docSnap.exists()) {
-      return res.status(404).json({ error: 'Dados não encontrados' });
-    }
-
-    const encryptedValue = CryptoJS.AES.encrypt(value, ENCRYPTION_KEY).toString();
-    const encryptedUrl = CryptoJS.AES.encrypt(url, ENCRYPTION_KEY).toString();
-
-    const updateData = {
-      name,
-      value: encryptedValue,
-      url: encryptedUrl,
-      updatedAt: new Date(),
-      active: true // mantém ativo
-    };
-
-    await setDoc(docRef, updateData, { merge: true });
-
-    res.json({ message: 'Dados atualizados com sucesso', documentId: req.params.documentId });
-  } catch (error) {
-    console.error('Erro ao atualizar dados:', error);
-    res.status(500).json({ error: 'Erro interno do servidor' });
-  }
-});
 
 // Helper para a resposta do /api/exec
 const getEnhancedResponse = (sessionId, output = '') => {
@@ -334,6 +118,9 @@ app.post('/api/exec', async (req, res) => {
 // ----- ROTAS PARA MONITORES DE SERVIÇO -----
 const MONITORS_FILE_PATH = path.join(__dirname, 'monitors.json');
 
+// ----- ROTAS PARA ATALHOS DE COMANDOS -----
+const SHORTCUTS_FILE_PATH = path.join(__dirname, 'shortcuts.json');
+
 const readMonitors = () => {
     try {
         if (fs.existsSync(MONITORS_FILE_PATH)) {
@@ -351,6 +138,26 @@ const writeMonitors = (data) => {
         fs.writeFileSync(MONITORS_FILE_PATH, JSON.stringify(data, null, 2));
     } catch (e) {
         console.error("Erro ao escrever em monitors.json:", e);
+    }
+};
+
+const readShortcuts = () => {
+    try {
+        if (fs.existsSync(SHORTCUTS_FILE_PATH)) {
+            const data = fs.readFileSync(SHORTCUTS_FILE_PATH, 'utf8');
+            return JSON.parse(data);
+        }
+    } catch (e) {
+        console.error("Erro ao ler shortcuts.json:", e);
+    }
+    return [];
+};
+
+const writeShortcuts = (data) => {
+    try {
+        fs.writeFileSync(SHORTCUTS_FILE_PATH, JSON.stringify(data, null, 2));
+    } catch (e) {
+        console.error("Erro ao escrever em shortcuts.json:", e);
     }
 };
 
@@ -505,54 +312,25 @@ app.post('/api/exec-admin', (req, res) => {
   });
 });
 
-// Optional friendly route to serve the HTML page directly
-app.get('/aws159357', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'aws159357.html'));
-});
-
-// Rota para o gerenciador de e-mails
-app.get('/email', (req, res) => {
-  res.sendFile(path.join(__dirname, 'web', 'index.html'));
-});
-
-// Servir arquivos estáticos da pasta web
-app.use('/web', express.static(path.join(__dirname, 'web')));
 
 app.get('/', (req, res) => {
   res.status(200).sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 15966;
 const server = app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
   console.log('Endpoints disponíveis:');
-  console.log('- POST   /data');
-  console.log('- GET    /data');
-  console.log('- GET    /data/:documentId');
-  console.log('- DELETE /data/:documentId');
-  console.log('- PUT    /data/:documentId');
-  console.log('- GET    /dashboard-real');
-  console.log('- GET    /api/monitors');
-  console.log('- POST   /api/monitors');
-  console.log('- DELETE /api/monitors/:id');
-  console.log('- POST   /api/monitors/start');
-  console.log('- POST   /api/monitors/stop');
-  console.log('- POST   /api/monitors/restart');
-  console.log('- GET    /api/shortcuts');
-  console.log('- POST   /api/shortcuts');
-  console.log('- DELETE /api/shortcuts/:id');
-  console.log('- POST   /api/shortcuts/execute');
+  console.log('- GET    /acc');
 });
 
 // WebSocket Server for real-time stats
 const wss = new WebSocketServer({ server });
 
-// Armazenamento e carregamento do histórico do servidor
 const MAX_HISTORY_POINTS = 100; // Reduzido para 100
 const HISTORY_FILE_PATH = path.join(__dirname, 'stats-history.json');
 let statsHistory = [];
 
-// Carrega o histórico do arquivo ao iniciar
 try {
   if (fs.existsSync(HISTORY_FILE_PATH)) {
     const data = fs.readFileSync(HISTORY_FILE_PATH, 'utf8');
@@ -667,7 +445,7 @@ app.post('/api/admin/verify', (req, res) => {
 });
 
 // Adicionando a nova rota
-app.get('/dashboard-real', (req, res) => {
+app.get('/acc', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'dashboard-real.html'));
 });
 
@@ -725,28 +503,12 @@ app.post('/api/monitors/restart', async (req, res) => {
     }
 });
 
-// ----- ROTAS PARA ATALHOS DE COMANDOS -----
-const SHORTCUTS_FILE_PATH = path.join(__dirname, 'shortcuts.json');
-
-const readShortcuts = () => {
-    try {
-        if (fs.existsSync(SHORTCUTS_FILE_PATH)) {
-            const data = fs.readFileSync(SHORTCUTS_FILE_PATH, 'utf8');
-            return JSON.parse(data);
-        }
-    } catch (e) {
-        console.error("Erro ao ler shortcuts.json:", e);
-    }
-    return [];
-};
-
-const writeShortcuts = (data) => {
-    try {
-        fs.writeFileSync(SHORTCUTS_FILE_PATH, JSON.stringify(data, null, 2));
-    } catch (e) {
-        console.error("Erro ao escrever em shortcuts.json:", e);
-    }
-};
+// Endpoint para fornecer informações do sistema para a tela inicial
+app.get('/info', (req, res) => {
+  const hostname = os.hostname();
+  const datetime = new Date().toLocaleString('pt-BR', { hour12: false });
+  res.json({ hostname, datetime });
+});
 
 // Obter todos os atalhos
 app.get('/api/shortcuts', (req, res) => {
@@ -791,33 +553,66 @@ app.post('/api/shortcuts/execute', async (req, res) => {
         return res.status(404).json({ error: 'Atalho não encontrado.' });
     }
 
-    console.log(`Executando atalho '${shortcut.name}' com comando: ${shortcut.command}`);
+    console.log(`Executando atalho '${shortcut.name}' com o comando: ${shortcut.command}`);
 
     try {
-        // Executa o comando em background sem aguardar retorno
-        exec(shortcut.command, { 
-            timeout: 30000,
-            detached: true, // Executa em background
-            stdio: 'ignore' // Ignora stdin, stdout e stderr
-        }, (err) => {
-            if (err) {
-                console.error(`Erro ao executar atalho '${shortcut.name}':`, err);
-            } else {
-                console.log(`Atalho '${shortcut.name}' iniciado com sucesso em background.`);
-            }
-        });
+        // Separa os comandos por quebra de linha (como nos monitores)
+        const commands = shortcut.command.split('\n').map(cmd => cmd.trim()).filter(cmd => cmd !== '');
         
-        // Retorna imediatamente sem aguardar a execução
-        res.json({ 
-            message: `Comando ${shortcut.name} iniciado com sucesso.`,
-            success: true
-        });
+        if (commands.length === 0) {
+            throw new Error('Nenhum comando fornecido.');
+        }
+
+        let currentWorkingDir = __dirname; // Começa no diretório do projeto
+
+        // Processa comandos cd primeiro para determinar o diretório final
+        for (const command of commands) {
+            if (command.startsWith('cd ')) {
+                const targetDir = command.substring(3).trim();
+                const newPath = path.resolve(currentWorkingDir, targetDir);
+                
+                if (fs.existsSync(newPath) && fs.statSync(newPath).isDirectory()) {
+                    currentWorkingDir = newPath;
+                    console.log(`Diretório de trabalho alterado para: ${currentWorkingDir}`);
+                } else {
+                    throw new Error(`Diretório não encontrado: ${newPath}`);
+                }
+            }
+        }
+
+        // Executa o último comando (não-cd) em background
+        const lastCommand = commands.filter(cmd => !cmd.startsWith('cd ')).pop();
+        
+        if (lastCommand) {
+            console.log(`Executando comando em background: '${lastCommand}' no diretório: ${currentWorkingDir}`);
+            
+            // Executa em background sem esperar pela saída
+            exec(lastCommand, { 
+                cwd: currentWorkingDir,
+                detached: true, // Executa em processo separado
+                stdio: 'ignore' // Ignora stdin, stdout, stderr
+            }, (err) => {
+                if (err) {
+                    console.error(`Erro ao executar comando em background: ${err.message}`);
+                } else {
+                    console.log(`Comando '${lastCommand}' iniciado em background com sucesso.`);
+                }
+            });
+            
+            // Responde imediatamente sem esperar pela execução
+            res.json({ 
+                message: `Comando ${shortcut.name} iniciado em background.`,
+                output: `Comando executado: ${lastCommand}`
+            });
+        } else {
+            throw new Error('Nenhum comando para executar (apenas comandos cd encontrados).');
+        }
+        
     } catch (error) {
         console.error(`Falha ao executar atalho '${shortcut.name}'.`, error);
         res.status(500).json({ 
             error: `Falha ao executar o comando ${shortcut.name}.`,
-            details: error.message,
-            success: false
+            details: error.message
         });
     }
 }); 

@@ -64,7 +64,12 @@
 
       <!-- List Items Section -->
       <section id="list-section" class="d-none">
-        <h2 class="mb-4">Itens Salvos</h2>
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="mb-0">Itens Salvos</h2>
+          <button class="btn btn-outline-primary" id="reloadBtn" title="Recarregar dados">
+            <i class="fa fa-refresh me-1"></i>Recarregar
+          </button>
+        </div>
         <div class="table-responsive">
           <table class="table table-striped align-middle">
             <thead class="table-dark">
@@ -221,13 +226,13 @@ print(resp.json())</code></pre>
     async function loadData() {
       try {
         const tbody = document.getElementById('data-body');
-        tbody.innerHTML = '<tr><td colspan="3" class="text-center">Carregando...</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="6" class="text-center">Carregando...</td></tr>';
         const response = await fetch('/data');
         if (!response.ok) throw new Error('Falha ao buscar dados');
         const data = await response.json();
         tbody.innerHTML = '';
         if (data.length === 0) {
-          tbody.innerHTML = '<tr><td colspan="3" class="text-center">Nenhum dado encontrado.</td></tr>';
+          tbody.innerHTML = '<tr><td colspan="6" class="text-center">Nenhum dado encontrado.</td></tr>';
         }
         data.forEach(item => {
           const row = document.createElement('tr');
@@ -258,7 +263,8 @@ print(resp.json())</code></pre>
         });
       } catch (err) {
         console.error(err);
-        document.getElementById('data-body').innerHTML = '<tr><td colspan="3" class="text-center text-danger">Erro ao carregar dados.</td></tr>';
+        document.getElementById('data-body').innerHTML = '<tr><td colspan="6" class="text-center text-danger">Erro ao carregar dados.</td></tr>';
+        throw err; // Re-throw para que o botão de recarregar possa capturar o erro
       }
     }
 
@@ -347,6 +353,33 @@ print(resp.json())</code></pre>
     });
     // inicial
     applyLang('curl');
+    
+    // Botão de recarregar
+    document.getElementById('reloadBtn').addEventListener('click', async () => {
+      const btn = document.getElementById('reloadBtn');
+      const originalText = btn.innerHTML;
+      
+      // Adiciona animação de loading
+      btn.innerHTML = '<i class="fa fa-spinner fa-spin me-1"></i>Carregando...';
+      btn.disabled = true;
+      
+      try {
+        await loadData();
+        // Feedback visual de sucesso
+        btn.innerHTML = '<i class="fa fa-check me-1"></i>Atualizado!';
+        setTimeout(() => {
+          btn.innerHTML = originalText;
+          btn.disabled = false;
+        }, 1000);
+      } catch (error) {
+        // Feedback visual de erro
+        btn.innerHTML = '<i class="fa fa-exclamation-triangle me-1"></i>Erro!';
+        setTimeout(() => {
+          btn.innerHTML = originalText;
+          btn.disabled = false;
+        }, 2000);
+      }
+    });
   </script>
 
   <!-- Edit Modal -->

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "6008f25f-55c2-48a6-8f68-699420644576",
+    "name": "AnyDesk ",
+    "command": "cd /home/jesus/meus_aplicativos/anydesk-7.0.0-amd64.tar/anydesk-7.0.0\n./anydesk",
+    "description": "Abre o AnyDesk para acesso remoto. Para obter o ID use:\n--get-id no final\n"
+  }
+]

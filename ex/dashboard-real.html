@@ -232,12 +232,13 @@
               <input type="text" class="form-control" id="shortcutName" required>
             </div>
             <div class="mb-3">
-              <label for="shortcutCommand" class="form-label">Comando</label>
-              <textarea class="form-control" id="shortcutCommand" rows="3" required placeholder="Digite o comando a ser executado..."></textarea>
+              <label for="shortcutCommand" class="form-label">Comandos</label>
+              <textarea class="form-control" id="shortcutCommand" rows="3" required placeholder="Ex:&#10;cd /home/user/project&#10;npm start"></textarea>
+              <div class="form-text">Digite um comando por linha. Use 'cd diretório' para mudar de pasta.</div>
             </div>
             <div class="mb-3">
               <label for="shortcutDescription" class="form-label">Descrição (opcional)</label>
-              <textarea class="form-control" id="shortcutDescription" rows="2" placeholder="Descrição do que o comando faz..."></textarea>
+              <textarea class="form-control" id="shortcutDescription" rows="2" placeholder="Descreva o que este comando faz..."></textarea>
             </div>
           </form>
         </div>

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "6008f25f-55c2-48a6-8f68-699420644576",
+    "name": "anydesk windows",
+    "command": "\"C:\\FerramentasExpoe\\AnyDesk.exe\"",
+    "description": "caso queira adquirir o id use :\n\"C:\\FerramentasExpoe\\AnyDesk.exe\" --get-id"
+  }
+]
